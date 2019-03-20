@@ -1,145 +1,142 @@
-FRESHWORKS -  Dealers;;
-;;
-;;
-;C11AB04428;Sicav2000 S.r.l.
-;C11AB04626;Nuova Assauto S.p.A - MOTOR ASSAUTO
-;C11AB04536;Concessionarie Papa-Nicolini S.r.l.
-;C11AB04568;Autoingros Torino S.p.A. - TORINO MOTOR
-;C11AB03571;Garage Sesia  S.R.L.
-;C11AB04548;Cozzo Mario S.r.l.
-;C11AB04694;Resicar
-;C11AB04664;Unicar S.p.A.
-;C11AB04399;Targa S.r.l.
-;C11AB04547;Stilcar S.p.A.
-;C11AB04602;Lancar S.p.A.
-;C11AB04661;Spazio Tre S.r.l. - SPAZIO 6
-;C11AB04530;G.T. Motor S.p.A.
-;C11AB04672;I-Car S.r.l.
-;C11AB02054;Autotorino S.p.A. - Valmadrera (LC)
-;C11AB04684;Autotorino S.p.A. - Vigevano (PV)
-;C11AB04671;Clerici S.r.l.
-;C11AB04680;Autotorino S.p.A. - Varese (VA)
-;C11AB04554;Gerli Antonio e Giuseppe S.p.A.
-;C11AB04682;Autotorino S.p.A. - Corbetta (MI)
-;C11AB04529;Lea Car S.r.l.
-;C11AB04591;Autotorino S.p.A. - Modena (MO)
-;C11AB04681;Autotorino S.p.A. - Castellanza (VA)
-;C11AB04496;Autotorino S.p.A. - Curno (BG)
-;C11AB04604;Fassina S.p.A.
-;C11AB04522;Autotorino S.p.A. - Tavernerio (CO)
-;C11AB03633;Autotorino S.p.A. - Castione (SO)
-;C11AB04573;Autostore S.p.A.
-;C11AB04683;Autotorino S.p.A. - Cava Manara (PV)
-;C11AB03205;F.lli Novara S.r.l.
-;C11AB04710;G.Villa SRL
-;C11AB04389;Lovato Diesel S.r.l.
-;C11AB04624;Pastorello S.r.l.
-;C11AB04596;Auto Futura S.r.l.
-;C11AB04541;Autobase S.r.l.
-;C11AB04422;Tuttomotori S.r.l.
-;C11AB04713;DE BONA SRL
-;C11AB04598;Padanauto 2 S.r.l.
-;C11AB04328;Mittelcar 2 S.r.l.
-;C11AB04567;Ferri Auto S.p.A. - Paese (TV)
-;C11AB04305;G.S. Car S.r.l.
-;C11AB04382;Ferri Auto S.p.A. - Tavagnacco (UD)
-;C11AB04499;Autopiave S.r.l.
-;C11AB00084;D'Incà Celestino & F. S.n.c.
-;C11AB04563;Ricci S.r.l.
-;C11AB04690;AUTOPIU’
-;C11AB04515;Rino Berton S.r.l.
-;C11AB04662;Auto Elite S.r.l. - AUTOMARKET
-;C11AB04588;Autogepy S.r.l.
-;C11AB04593;T-Car S.r.l. - HYUCAR
-;C11AB04601;BianchessiAuto2 SPA
-;C11AB04363;Golden Car S.r.l. - Bologna (BO)
-;C11AB04620;Ponginibbi Luigi S.p.A.
-;C11AB04576;NRG S.r.l.
-;C11AB04691;DI.BA. SPA
-;C11AB04559;Dromo-Car S.r.l.
-;C11AB04395;Gennari S.r.l.
-;C11AB00954;Neos Car S.r.l.
-;C11AB04519;Lupi Auto S.r.l.
-;C11AB04688;Nelli 1956 S.r.l.
-;C11AB03076;Autofan S.r.l.
-;C11AB04665;Dedo Larini S.r.l.
-;C11AB02291;Lenzi Automobili S.p.A.
-;C11AB00448;Oriental Car S.n.c.
-;C11AB03209;Nericar S.r.l.
-;C11AB04621;Autosky S.r.l.
-;C11AB04590;M.B. Auto S.r.l.
-;C11AB03889;Au.To Meccanica S.r.l.
-;C11AB04169;Autoyang S.r.l.
-;C11AB04173;Autoplus S.r.l.
-;C11AB00950;Lady Car S.r.l.
-;C11AB02944;Boattini Francesco S.r.l.
-;C11AB04597;Delta Motors S.p.A.
-;C11AB00941;A.F. Motors S.r.l.
-;C11AB00696;Superauto S.r.l.
-;C11AB04663;Paci Auto S.r.l.
-;C11AB04649;Ro.Ma.Car S.r.l.
-;C11AB04715;TOY MOTOR SRL
-;C11AB02682;Auto K S.r.l.
-;C11AB04572;Autocoreana S.r.l.
-;C11AB04304;Autocoreana S.r.l. - Viterbo (VT)
-;C11AB04583;Auto Royal Company S.r.l.
-;C11AB04531;IM S.p.A. - Ceccano (FR)
-;C11AB04552;IM S.p.A. - Latina (LT)
-;C11AB04692;Angelo Fiori Spa - Roma
-;C11AB04704;Angelo Fiori Spa - Ostia
-;C11AB04555;Auto in by Feri S.p.A.
-;C11AB04565;IM S.p.A. - Colleferro (RM)
-;C11AB04686;Prezioso Federico Srl
-;C11AB01106;Ruga S.r.l.
-;C11AB04508;G. Catone S.r.l.
-;C11AB04676;Sara 2 S.r.l.
-;C11AB04324;Autosantoro Point S.r.l. - Salerno (SA)
-;C11AB03653;Appia Motors S.r.l.
-;C11AB04533;Sinergy S.r.l.
-;C11AB03074;Roby Cars S.r.l.
-;C11AB04178;Auto Planet Bari S.r.l. - (Via La Pira)
-;C11AB04693;Auto Planet Bari S.r.l. - (Via Napoli)
-;C11AB04696;FRENTAUTO SPA
-;C11AB02917;Autocaracciolo S.n.c. - Brindisi (BR)
-;C11AB02937;Chiarito Motors S.r.l.
-;C11AB04397;Valentini Auto S.r.l.
-;C11AB04500;Autocaracciolo S.r.l. - Lecce (LE)
-;C11AB02290;C.I.M. Auto S.a.s.
-;C11AB04546;Picca Motors S.r.l.
-;C11AB00927;My Car S.r.l. - Villa Raspa di Spoltore (PE)
-;C11AB04605;Progetto Auto S.r.l.
-;C11AB04435;Sudauto S.r.l.
-;C11AB04709;Automobilfrance SRL
-;C11AB04394;Gruppo Napoli S.r.l.
-;C11AB03211;Pollina Auto S.r.l.
-;C11AB04400;Intermotors S.r.l.
-;C11AB00045;Mondo Auto S.r.l. - Palermo (PA)
-;C11AB04557;C.C.C. S.r.l. - SYRAKA
-;C11AB04575;C.E.R. S.p.A.
-;C11AB04679;Autoquadrifoglio S.r.l.
-;C11AB04315;F.lli Longhi S.r.l.
-;C11AB04689;Eurocar
-;C11AB04701;Auto Grandi SRL
-;C11AB04698;Autocityelle SRL
-;C11AB04465;Blue Cars  S.R.L.
-;C11AB04505;Ferrari Motors S.r.l. - AUTOMARKET
-;C11AB04703;Perin Auto SRL
-;C11AB04695;Cattleya SRL
-;C11AB04666;Palmino S.r.l.
-;C11AB04488;Golden Car S.r.l. - Ravenna (RA)
-;C11AB04706;German Car SRL
-;C11AB04700;F.lli Magnani SRL
-;C11AB04675;Nuovauto S.r.l.
-;C11AB04538;Luna Rossa S.r.l.
-;C11AB04667;AV Service S.r.l.
-;C11AB04678;Eurocar S.r.l.
-;C11AB04633;Service Toskana S.r.l.
-;C11AB04699;FC Autoservice
-;C11AB04669;Catalucci Auto S.r.l.
-;C11AB04523;Gestar S.r.l.
-;C11AB04697;Pavese SRL
-;C11AB04687;MJ Car S.r.l.
-;C11AB04497;Renauto S.p.A. - AUTOPLANET
-;C11AB04677;Auto Albanese S.r.l.
-;C11AB04705;RF SRL 
-;C11AB04702;C.A.R. Service SRL
+C11AB04428,Sicav2000 S.r.l.
+C11AB04626,Nuova Assauto S.p.A - MOTOR ASSAUTO
+C11AB04536,Concessionarie Papa-Nicolini S.r.l.
+C11AB04568,Autoingros Torino S.p.A. - TORINO MOTOR
+C11AB03571,Garage Sesia  S.R.L.
+C11AB04548,Cozzo Mario S.r.l.
+C11AB04694,Resicar
+C11AB04664,Unicar S.p.A.
+C11AB04399,Targa S.r.l.
+C11AB04547,Stilcar S.p.A.
+C11AB04602,Lancar S.p.A.
+C11AB04661,Spazio Tre S.r.l. - SPAZIO 6
+C11AB04530,G.T. Motor S.p.A.
+C11AB04672,I-Car S.r.l.
+C11AB02054,Autotorino S.p.A. - Valmadrera (LC)
+C11AB04684,Autotorino S.p.A. - Vigevano (PV)
+C11AB04671,Clerici S.r.l.
+C11AB04680,Autotorino S.p.A. - Varese (VA)
+C11AB04554,Gerli Antonio e Giuseppe S.p.A.
+C11AB04682,Autotorino S.p.A. - Corbetta (MI)
+C11AB04529,Lea Car S.r.l.
+C11AB04591,Autotorino S.p.A. - Modena (MO)
+C11AB04681,Autotorino S.p.A. - Castellanza (VA)
+C11AB04496,Autotorino S.p.A. - Curno (BG)
+C11AB04604,Fassina S.p.A.
+C11AB04522,Autotorino S.p.A. - Tavernerio (CO)
+C11AB03633,Autotorino S.p.A. - Castione (SO)
+C11AB04573,Autostore S.p.A.
+C11AB04683,Autotorino S.p.A. - Cava Manara (PV)
+C11AB03205,F.lli Novara S.r.l.
+C11AB04710,G.Villa SRL
+C11AB04389,Lovato Diesel S.r.l.
+C11AB04624,Pastorello S.r.l.
+C11AB04596,Auto Futura S.r.l.
+C11AB04541,Autobase S.r.l.
+C11AB04422,Tuttomotori S.r.l.
+C11AB04713,DE BONA SRL
+C11AB04598,Padanauto 2 S.r.l.
+C11AB04328,Mittelcar 2 S.r.l.
+C11AB04567,Ferri Auto S.p.A. - Paese (TV)
+C11AB04305,G.S. Car S.r.l.
+C11AB04382,Ferri Auto S.p.A. - Tavagnacco (UD)
+C11AB04499,Autopiave S.r.l.
+C11AB00084,D'Incà Celestino & F. S.n.c.
+C11AB04563,Ricci S.r.l.
+C11AB04690,AUTOPIU’
+C11AB04515,Rino Berton S.r.l.
+C11AB04662,Auto Elite S.r.l. - AUTOMARKET
+C11AB04588,Autogepy S.r.l.
+C11AB04593,T-Car S.r.l. - HYUCAR
+C11AB04601,BianchessiAuto2 SPA
+C11AB04363,Golden Car S.r.l. - Bologna (BO)
+C11AB04620,Ponginibbi Luigi S.p.A.
+C11AB04576,NRG S.r.l.
+C11AB04691,DI.BA. SPA
+C11AB04559,Dromo-Car S.r.l.
+C11AB04395,Gennari S.r.l.
+C11AB00954,Neos Car S.r.l.
+C11AB04519,Lupi Auto S.r.l.
+C11AB04688,Nelli 1956 S.r.l.
+C11AB03076,Autofan S.r.l.
+C11AB04665,Dedo Larini S.r.l.
+C11AB02291,Lenzi Automobili S.p.A.
+C11AB00448,Oriental Car S.n.c.
+C11AB03209,Nericar S.r.l.
+C11AB04621,Autosky S.r.l.
+C11AB04590,M.B. Auto S.r.l.
+C11AB03889,Au.To Meccanica S.r.l.
+C11AB04169,Autoyang S.r.l.
+C11AB04173,Autoplus S.r.l.
+C11AB00950,Lady Car S.r.l.
+C11AB02944,Boattini Francesco S.r.l.
+C11AB04597,Delta Motors S.p.A.
+C11AB00941,A.F. Motors S.r.l.
+C11AB00696,Superauto S.r.l.
+C11AB04663,Paci Auto S.r.l.
+C11AB04649,Ro.Ma.Car S.r.l.
+C11AB04715,TOY MOTOR SRL
+C11AB02682,Auto K S.r.l.
+C11AB04572,Autocoreana S.r.l.
+C11AB04304,Autocoreana S.r.l. - Viterbo (VT)
+C11AB04583,Auto Royal Company S.r.l.
+C11AB04531,IM S.p.A. - Ceccano (FR)
+C11AB04552,IM S.p.A. - Latina (LT)
+C11AB04692,Angelo Fiori Spa - Roma
+C11AB04704,Angelo Fiori Spa - Ostia
+C11AB04555,Auto in by Feri S.p.A.
+C11AB04565,IM S.p.A. - Colleferro (RM)
+C11AB04686,Prezioso Federico Srl
+C11AB01106,Ruga S.r.l.
+C11AB04508,G. Catone S.r.l.
+C11AB04676,Sara 2 S.r.l.
+C11AB04324,Autosantoro Point S.r.l. - Salerno (SA)
+C11AB03653,Appia Motors S.r.l.
+C11AB04533,Sinergy S.r.l.
+C11AB03074,Roby Cars S.r.l.
+C11AB04178,Auto Planet Bari S.r.l. - (Via La Pira)
+C11AB04693,Auto Planet Bari S.r.l. - (Via Napoli)
+C11AB04696,FRENTAUTO SPA
+C11AB02917,Autocaracciolo S.n.c. - Brindisi (BR)
+C11AB02937,Chiarito Motors S.r.l.
+C11AB04397,Valentini Auto S.r.l.
+C11AB04500,Autocaracciolo S.r.l. - Lecce (LE)
+C11AB02290,C.I.M. Auto S.a.s.
+C11AB04546,Picca Motors S.r.l.
+C11AB00927,My Car S.r.l. - Villa Raspa di Spoltore (PE)
+C11AB04605,Progetto Auto S.r.l.
+C11AB04435,Sudauto S.r.l.
+C11AB04709,Automobilfrance SRL
+C11AB04394,Gruppo Napoli S.r.l.
+C11AB03211,Pollina Auto S.r.l.
+C11AB04400,Intermotors S.r.l.
+C11AB00045,Mondo Auto S.r.l. - Palermo (PA)
+C11AB04557,C.C.C. S.r.l. - SYRAKA
+C11AB04575,C.E.R. S.p.A.
+C11AB04679,Autoquadrifoglio S.r.l.
+C11AB04315,F.lli Longhi S.r.l.
+C11AB04689,Eurocar
+C11AB04701,Auto Grandi SRL
+C11AB04698,Autocityelle SRL
+C11AB04465,Blue Cars  S.R.L.
+C11AB04505,Ferrari Motors S.r.l. - AUTOMARKET
+C11AB04703,Perin Auto SRL
+C11AB04695,Cattleya SRL
+C11AB04666,Palmino S.r.l.
+C11AB04488,Golden Car S.r.l. - Ravenna (RA)
+C11AB04706,German Car SRL
+C11AB04700,F.lli Magnani SRL
+C11AB04675,Nuovauto S.r.l.
+C11AB04538,Luna Rossa S.r.l.
+C11AB04667,AV Service S.r.l.
+C11AB04678,Eurocar S.r.l.
+C11AB04633,Service Toskana S.r.l.
+C11AB04699,FC Autoservice
+C11AB04669,Catalucci Auto S.r.l.
+C11AB04523,Gestar S.r.l.
+C11AB04697,Pavese SRL
+C11AB04687,MJ Car S.r.l.
+C11AB04497,Renauto S.p.A. - AUTOPLANET
+C11AB04677,Auto Albanese S.r.l.
+C11AB04705,RF SRL 
+C11AB04702,C.A.R. Service SRL
