@@ -622,13 +622,7 @@
                 }
             });
 
-            if ($('.nav-dropdown').length) {
-                $(".nav-dropdown").swipe({
-                    swipeLeft: function(event, direction, distance, duration, fingerCount) {
-                        $('.navbar-close').click();
-                    }
-                });
-            }
+            
         }
 
         // Scroll to Top Button
