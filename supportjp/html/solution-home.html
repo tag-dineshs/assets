@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js ie6" lang="en" dir="ltr" data-date-format="non_us"><![endif]-->
+<!--[if IE 7]><html class="no-js ie7" lang="en" dir="ltr" data-date-format="non_us"><![endif]-->
+<!--[if IE 8]><html class="no-js ie8" lang="en" dir="ltr" data-date-format="non_us"><![endif]-->
+<!--[if IE 9]><html class="no-js ie9" lang="en" dir="ltr" data-date-format="non_us"><![endif]-->
+<!--[if IE 10]><html class="no-js ie10" lang="en" dir="ltr" data-date-format="non_us"><![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html class="no-js " lang="en" dir="ltr" data-date-format="non_us">
+<!--<![endif]-->
+
+<head>
+    <!-- Title for the page -->
+    <title>FreshDesk</title>
+    <!-- Meta information -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" />
+    <!-- Base stylesheet -->
+    <!-- <link href="https://assets4.freshdesk.com/assets/cdn/portal_print-ce4892062f25ebaf8abdcca87f6225b0.css" media="print" rel="stylesheet" type="text/css" />
+    <link href="https://assets10.freshdesk.com/assets/cdn/falcon_portal_utils-fc010ba819d2d80256daa9858dbbc765.css" media="screen" rel="stylesheet" type="text/css" /> -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,italic,600,700,700italic" rel="stylesheet" type="text/css">
+    <link href="https://ind-assets4.freshdesk.com/assets/cdn/portal_print-a389f1ef3e87261e7264e3e70416d704.css" media="print" rel="stylesheet" type="text/css" />
+    <link href="https://ind-assets9.freshdesk.com/assets/cdn/falcon_portal_utils-375fa75f0f7e65b05e0570871499025e.css" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Theme stylesheet -->
+    <link href="css/theme.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/freshdesk.css" media="screen" rel="stylesheet" type="text/css">
+    <!-- Access portal settings information via javascript -->
+    <script type="text/javascript">
+    var portal = { "language": "en", "name": "Freshdesk", "contact_info": "", "current_page_name": "portal_home", "current_tab": "home", "current_account_id": 2, "preferences": { "bg_color": "#efefef", "header_color": "#3b3b3b", "help_center_color": "#f9f9f9", "footer_color": "#777777", "tab_color": "#006063", "tab_hover_color": "#4c4b4b", "btn_background": "#ffffff", "btn_primary_background": "#6c6a6a", "baseFont": "Source Sans Pro", "textColor": "#333333", "headingsFont": "Source Sans Pro", "headingsColor": "#333333", "linkColor": "#049cdb", "linkColorHover": "#036690", "inputFocusRingColor": "#f4af1a", "nonResponsive": "false" }, "falcon_portal_theme": false };
+    var attachment_size = 25;
+
+    var lang = {
+        loadingText: "Please Wait...",
+        viewAllTickets: "View all tickets"
+    };
+    </script>
+    <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <!-- <script src="https://ind-assets4.freshdesk.com/assets/cdn/portal_head-a23a49d3379e555c3bce6198c35c5a9f.js" type="text/javascript"></script>
+    <script src="https://ind-assets6.freshdesk.com/assets/cdn/prism-67132b2e3f25bcb9d275fd76bf59f43c.js" type="text/javascript"></script>
+    <script src="https://ind-assets5.freshdesk.com/assets/cdn/portal_bottom-4816994ae4f564cb1eb9c3029238695b.js" type="text/javascript"></script>
+    <script src="https://ind-assets7.freshdesk.com/assets/cdn/redactor-adf8b787353cd9053a79e693e45a3fb9.js" type="text/javascript"></script>
+    <script src="https://ind-assets2.freshdesk.com/assets/cdn/freshfone_portal-38510e9dcd7cf1e2bce25e2201e23cef.js" type="text/javascript"></script>    
+    <script src="https://ind-assets1.freshdesk.com/assets/cdn/lang/en-d58d68912364ea68a01bde932774f9dd.js" type="text/javascript"></script> -->
+</head>
+
+<body>
+    <div class="widget-webinar-banner">
+        <span class="emoji-icon"></span>
+        <p class="banner-text">Refresh Connect - An exclusive online summit for CX, IT, sales, and marketing superstars |</p>
+        <a href="https://www.freshworks.com/events/refresh-connect-summit/?utm_source=support&utm_medium=banner" target="_blank" role="button" class="register-btn">Get Access</a>
+    </div>
+    <div class="page page-layout">
+        <div class="gradient_bg  inner_bg ">
+            <header class="banner header-menu">
+                <div class="mini_header clearfix  otherpage_header ">
+                    <div class="c-wrapper no-padding">
+                        <a class="pullleft" target="_window" href="https://www.freshworks.com/"><i class="icon-home for-not-mobile"></i> Freshworks </a>
+                        <div class="pullright nav-menu">
+                            <li class="nav-contact">
+                                <a href="https://freshdesk.com/" target="_window">Go to Freshdesk</a>
+                            </li>
+                            <li class="nav-contact phonenumber_dropdown">
+                                <span id="region-contact"><i class="flags flag-india"></i><span>+91 (44) 6667 8040</span></span>
+                                <ul class="nav-contant-phonenumbers">
+                                    <li class="f-contact" data-toggle="tooltip" data-placement="left" title="" data-original-title="U.S.A.">
+                                        <i class="flags flag-usa"></i>
+                                        <a href="tel:+18668323090">
+                                            <p>+1 (866) 832-3090</p>
+                                        </a>
+                                    </li>
+                                    <li class="f-contact" data-toggle="tooltip" data-placement="left" title="" data-original-title="India">
+                                        <i class="flags flag-india"></i>
+                                        <a href="tel:+914466678040">
+                                            <p>+91 (44) 6667 8040</p>
+                                        </a>
+                                    </li>
+                                    <li class="f-contact" data-toggle="tooltip" data-placement="left" title="" data-original-title="U.K.">
+                                        <i class="flags flag-uk"></i>
+                                        <a href="tel:+448008085790">
+                                            <p>+44 (800) 808 5790</p>
+                                        </a>
+                                    </li>
+                                    <li class="f-contact" data-toggle="tooltip" data-placement="left" title="" data-original-title="Australia">
+                                        <i class="flags flag-aus"></i>
+                                        <a href="tel:+61894687228">
+                                            <p>+61 2 8188 4692</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div id="sticky_anchor" style="height: 0px;"></div>
+            <div id="sticky_head" class="navbar-static">
+                <header class="banner header-menu  otherpage_bg">
+                    <div class="c-wrapper no-padding">
+                        <div class="banner-wrapper">
+                            <div class="nav-wrapper clearfix">
+                                <a href="/support/home" class="logo"></a>
+                                <span class="nav-burger show-in-mobile">
+                                    <span class="nav-burger-icon"></span>
+                                </span>
+                                <div id="new-ticket-button">
+                                    <div class="  search_in_header  ">
+                                        <form class="hc-search-form print--remove" autocomplete="off" action="/support/search/solutions" id="hc-search-form">
+                                            <div class="hc-search-input"><i class="icon-search"></i>
+                                                <label for="support-search-input" class="hide">Enter your search term here...</label>
+                                                <input placeholder="Search articles and discussions" type="text" name="term" class="special ui-autocomplete-input" value="" rel="page-search" data-max-matches="10" id="support-search-input" autocomplete="off">
+                                            </div>
+                                            <div class="hc-search-button">
+                                                <button class="btn btn-primary" type="submit" autocomplete="off">
+                                                    <i class="mobile-icon-search hide-tablet"></i>
+                                                    <span class="hide-in-mobile">
+                                                        Search
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <input type="hidden" name="authenticity_token" value="8ztBTpx1Ell936tVAT+XFxI5ftSLytmO5R2Hc8alf+U=">
+                                        </form>
+                                    </div>
+                                    <!---     <a href="#" class="btn-medium fd-joe-bots">Ask Freddy</a> -->
+                                    <a href="/support/login" class="login_btn">Login</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="screen"></div>
+                <nav class="mobile-ham-nav show-in-mobile">
+                    <a href="/support/login">Login</a>
+                    <!--- <a href="#" class="fd-joe-bots">Ask Freddy</a> -->
+                    <a href="https://www.freshworks.com/">Freshworks</a>
+                    <a href="https://freshdesk.com/">Go to Freshdesk</a>
+                    <ul class="mobile_view_contacts">
+                        <li>
+                            <a>Contact Support</a>
+                            <ul>
+                                <li><i class="flags flag-usa"></i>+1 (866) 832-3090</li>
+                                <li><i class="flags flag-india"></i>+91 (44) 6667 8040</li>
+                                <li><i class="flags flag-uk"></i>+44 (800) 808 5790</li>
+                                <li><i class="flags flag-aus"></i>+61 2 8188 4692</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="page-tabs action-bar menubar_otherpage  makewhite">
+                    <div class="page no-padding">
+                        <a class="help-center-tab show-in-mobile">Support Home</a>
+                        <p class="currenttab show-in-mobile">solutions</p>
+                        <a class="nav-sub-toggle icon-arrow-down show-in-mobile" id="menu-icon"></a>
+                        <div class="action-bar-wrapper clear">
+                            <div class="nav-link clearfix menu_underline_animation" id="page-tabs">
+                                <ul>
+                                    <span class="underline" style="overflow: hidden; left: 640px; width: 63px;">
+                                    </span>
+                                    <li class="tab-home "><a class="tab-home " href="/support/home">
+                                            Support Home
+                                        </a></li>
+                                    <li class=""><a href="https://support.freshdesk.com/support/solutions/folders/7">FAQs </a></li>
+                                    <li class="current_page_item active"><a href="/support/solutions">
+                                            Solutions
+                                        </a></li>
+                                    <li class=""><a href="/support/discussions">Community</a></li>
+                                    <li><a href="https://freshdesk.com/academy" target="_window">Training </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <script src="//cdn.freshmarketer.com/61608/70421.js"></script>
+            <script type="text/javascript">
+            jQuery('#page-tabs a[href*="/support/discussions"]').text("Community");
+            </script>
+        </div>
+    </div>
+    <!-- Notifocation Messages for the page  -->
+    <div class="alert alert-with-close notice" id="noticeajax" style="display:none;"></div>
+    <div class="c-wrapper">
+        <div class="content main-links min-height-on-desktop main-links spaceup">
+            <div class="breadcrumbs">
+                <a href="/support/solutions">Solution home</a>
+            </div>
+            <h2 class="heading">The Freshdesk Experience</h2>
+            <div class="cs-g-c">
+                <section class="cs-g article-list">
+                    <div class="list-lead">
+                        <a href="/support/solutions/folders/273360" title="Freshdesk Mint"> Freshdesk Mint <span class="item-count">6</span></a>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="ellipsis">
+                                <a href="/support/solutions/articles/229464-what-s-changed-in-freshdesk-mint" title="What's changed in Freshdesk Mint">What's changed in Freshdesk Mint</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ellipsis">
+                                <a href="/support/solutions/articles/236731-exclusive-features-on-freshdesk-mint" title="Exclusive features on Freshdesk Mint">Exclusive features on Freshdesk Mint</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ellipsis">
+                                <a href="/support/solutions/articles/236732-pocket-sized-yet-powerful-enhancements-for-mint" title="Pocket-sized yet powerful enhancements for Mint">Pocket-sized yet powerful enhancements for Mint</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ellipsis">
+                                <a href="/support/solutions/articles/236740-new-marketplace-apps-you-can-now-integrate-with-on-freshdesk-mint" title="New Marketplace Apps you can now integrate with, on Freshdesk Mint">New Marketplace Apps you can now integrate with, on Freshdesk Mint</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ellipsis">
+                                <a href="/support/solutions/articles/238775-new-ways-in-which-freshdesk-mint-can-transform-your-helpdesk" title="New ways in which Freshdesk Mint can transform your helpdesk">New ways in which Freshdesk Mint can transform your helpdesk</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="/support/solutions/folders/273360" class="see-more" title="See all 6 articles">See all 6 articles</a>
+                </section>
+                <section class="cs-g article-list">
+                    <div class="list-lead">
+                        <a href="/support/solutions/folders/274807" title="Migrating to Freshchat and Freschcaller"> Migrating to Freshchat and Freschcaller <span class="item-count">2</span></a>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="ellipsis">
+                                <a href="/support/solutions/articles/236833-migrating-from-phone-channel-to-freshcaller" title="Migrating from phone channel to Freshcaller">Migrating from phone channel to Freshcaller</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ellipsis">
+                                <a href="/support/solutions/articles/236834-migrating-from-live-chat-to-freshchat" title="Migrating from live chat to Freshchat">Migrating from live chat to Freshchat</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="footer-area">
+        <div class="page no-padding">
+            <div class="footer-wrapper">
+                <div class="footer-links">
+                    <div class="fl-1">
+                        <ul>
+                            <li>Our Products</li>
+                            <li><a href="https://freshdesk.com?utm_source=freshdesk&amp;utm_medium=referral-fd&amp;utm_campaign=fd-footer">Freshdesk</a></li>
+                            <li><a href="https://freshservice.com?utm_source=freshdesk&amp;utm_medium=referral-fd&amp;utm_campaign=fd-footer">Freshservice</a></li>
+                            <li><a href="https://www.freshworks.com/freshsales-crm/?utm_source=freshdesk&amp;utm_medium=referral-fd&amp;utm_campaign=fd-footer">Freshsales</a></li>
+                            <li><a href="https://www.freshworks.com/freshcaller-cloud-pbx/?utm_source=freshdesk&amp;utm_medium=referral-fd&amp;utm_campaign=fd-footer">Freshcaller</a></li>
+                            <li><a href="https://www.freshworks.com/hrms/?utm_source=freshdesk&amp;utm_medium=referral-fd&amp;utm_campaign=fd-footer" style="display:inline-block;">Freshteam</a><a href="https://www.freshworks.com/applicant-tracking/?utm_source=freshdesk&amp;utm_medium=referral-fd&amp;utm_campaign=fd-footer" class="new-tag hide-in-mobile" style="display: inline-block;padding: 2px 6px;color: #fff; font-size: .6rem; left:3px;">NEW</a></li>
+                            <li><a href="https://www.freshworks.com/freshchat-livechat-software/?utm_source=freshdesk&amp;utm_medium=referral-fd&amp;utm_campaign=fd-footer" style="display:inline-block;">Freshchat</a><a href="https://www.freshworks.com/freshchat-livechat-software/?utm_source=freshdesk&amp;utm_medium=referral-fd&amp;utm_campaign=fd-footer" class="new-tag hide-in-mobile" style="display: inline-block;padding: 2px 6px;color: #fff; font-size: .6rem; left:3px;">NEW</a></li>
+                            <li><a href="https://www.freshworks.com/marketing-automation/?utm_source=freshworks&utm_medium=referral&utm_campaign=freshdesksupport_footer_main" style="display:inline-block;">Freshmarketer</a><a href="https://www.freshworks.com/marketing-automation/conversion-rate-optimization/?utm_source=freshworks&utm_medium=referral&utm_campaign=freshdesksupport_footer_main" class="new-tag hide-in-mobile" style="display: inline-block;padding: 2px 6px;color: #fff; font-size: .6rem; left:3px;">NEW</a></li>
+                            <li><a href="https://www.freshworks.com/website-monitoring/?utm_source=freshping&utm_medium=referral&utm_campaign=freshdesksupport_footer_main" style="display:inline-block;">Freshping</a><a href="https://www.freshworks.com/website-monitoring/?utm_source=freshping&utm_medium=referral&utm_campaign=freshdesksupport_footer_main" class="new-tag hide-in-mobile" style="display: inline-block;padding: 2px 6px;color: #fff; font-size: .6rem; left:3px;">NEW</a></li>
+                        </ul>
+                    </div>
+                    <div class="fl-2">
+                        <ul>
+                            <li>Company</li>
+                            <li><a href="https://www.freshworks.com/company/about/?utm_source=freshdesk&amp;utm_medium=referral">About us</a></li>
+                            <li><a href="https://www.freshworks.com/company/leadership/?utm_source=freshdesk&amp;utm_medium=referral">Leadership</a></li>
+                            <li><a href="https://www.freshworks.com/company/investors/?utm_source=freshdesk&amp;utm_medium=referral">Investors</a></li>
+                            <li><a href="https://www.freshworks.com/company/careers/?utm_source=freshdesk&amp;utm_medium=referral">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="fl-3">
+                        <ul>
+                            <li>Freshdesk</li>
+                            <li><a href="http://freshdesk.com/helpdesk-features">Features</a></li>
+                            <li><a href="http://freshdesk.com/pricing">Pricing</a></li>
+                            <li><a href="https://apps.freshdesk.com/">Apps</a></li>
+                            <li><a href="http://freshdesk.com/customers">Customers</a></li>
+                            <li><a href="http://freshdesk.com/academy">Training</a></li>
+                            <li><a href="http://freshdesk.com/customer-support-glossary">Support glossary</a></li>
+                            <li><a href="https://developers.freshdesk.com/v2/docs/your-first-app/">API &amp; Developers</a></li>
+                            <li><a href="http://freshdesk.com/resources">Resources</a></li>
+                            <li><a href="https://blog.freshdesk.com">Blog</a></li>
+                            <li><a href="http://freshdesk.com/resellers/reseller-benefits">Resellers</a></li>
+                        </ul>
+                    </div>
+                    <div class="fl-4">
+                        <ul>
+                            <li>Top Features</li>
+                            <li><a href="http://freshdesk.com/ticketing">Ticketing</a></li>
+                            <li><a href="http://freshdesk.com/multichannel-support">Multichannel</a></li>
+                            <!--li><a href="#">Collaboration</a></li-->
+                            <li><a href="http://freshdesk.com/productivity">Productivity</a></li>
+                            <li><a href="http://freshdesk.com/self-service">Self Service</a></li>
+                            <li><a href="http://freshdesk.com/global-helpdesk">Global Support</a></li>
+                            <li><a href="http://freshdesk.com/secure-helpdesk">Secure Helpdesk</a></li>
+                            <li><a href="http://freshdesk.com/reporting">Reporting &amp; Analytics</a></li>
+                            <li><a href="http://freshdesk.com/solutions/helpdesk-software">Helpdesk Software</a></li>
+                        </ul>
+                    </div>
+                    <div class="fl-5">
+                        <ul>
+                            <li>Mobile apps</li>
+                            <li class="img-store top-space-small bottom-space-small">
+                                <a class="a-inline" href="https://itunes.apple.com/ca/app/freshdesk/id849713306?mt=8"><img src="https://freshdesk.com/themes/freshdesk-polygon/images/appstore.svg" width="128"></a>
+                                <a class="a-inline" href="http://ad.apps.fm/ozXtEc5ZI9HQ_q2ra73VL15KLoEjTszcQMJsV6-2VnHFDLXitVHB6BlL95nuoNYffAIOoczw-YGfIaoZYt7xO4LNOZ4hHcXlOAoj_MgX7b8gZe2OOIvCAxOQtZGmw1KoF6ewiom4sKC4xZyurG0g7Q"><img src="https://freshdesk.com/themes/freshdesk-polygon/images/google-play.svg" width="128"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="fl-6">
+                        <ul class="f-social fmenu contact-us">
+                            <li class="fhead">Connect with us</li>
+                            <li class="top-space-small bottom-space-small" id="footer-social-icons">
+                                <a href="http://www.linkedin.com/company/1377014" class="linkedin"><i class="icon-fw-linkedin"></i></a>
+                                <a href="https://www.facebook.com/freshdesk/" class="fb"><i class="icon-fw-facebook"></i></a>
+                                <a href="https://twitter.com/freshdesk" class="twitter"><i class="icon-fw-twitter"></i></a>
+                                <a href="http://www.youtube.com/freshdesk" class="youtube"><i class="icon-fw-youtube"></i></a>
+                                <a href="https://plus.google.com/104314544092549602183/posts" class="googleplus"><i class="icon-fw-google-plus"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fg-12 page contact_footer">
+            <ul class="f-contact fmenu">
+                <li class="fhead">Sales &amp; Support</li>
+                <li class="top-space-small">
+                    <span class="f-phone">
+                        <i class="icon-fw-phone-new"></i>
+                        <span>+1 (866) 832-3090</span>
+                    </span>
+                </li>
+                <li class="top-space-small">
+                    <i class="icon-fw-email-new"></i>
+                    <span class="f-mail-span"><a href="mailto:support@freshdesk.com" class="f-mail">support@freshdesk.com</a></span>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-copyright-area">
+            <div class='page no-padding'>
+                <div class="footer-terms">
+                    <ul class='clearfix'>
+                        <li><a href="https://www.freshworks.com/terms/" rel="noreferrer"> Terms of service </a></li>
+                        <li><a href="https://www.freshworks.com/privacy/" rel="noreferrer"> Privacy policy </a></li>
+                    </ul>
+                </div>
+                <div class="copy omega">
+                    <p> Copyright © Freshworks Inc. All Rights Reserved. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    jQuery('#page-tabs a[href*="/support/discussions"]').text("Community");
+    jQuery('.hc-search-input').prepend('<i class="icon-search"></i>');
+
+    jQuery(window).scroll(function(e) {
+        var scroller_anchor = jQuery("#sticky_anchor").offset().top;
+        if (jQuery(this).scrollTop() >= scroller_anchor && jQuery('#sticky_head').css('position') != 'fixed') {
+            jQuery('#sticky_head').removeClass('navbar-static').addClass('navbar-fixed');
+            var navbar_height = jQuery('#sticky_head').innerHeight();
+            jQuery('#sticky_anchor').css('height', navbar_height + 'px');
+            var sticky_height = jQuery('#sticky_head').height();
+            // jQuery('.ui-autocomplete').css({'position': 'fixed', 'top' : sticky_height + 'px'});
+        } else if (jQuery(this).scrollTop() < scroller_anchor && jQuery('#sticky_head').css('position') != 'relative') {
+            jQuery('#sticky_anchor').css('height', '0px');
+            jQuery('#sticky_head').removeClass('navbar-fixed').addClass('navbar-static');
+            var sticky_height = jQuery('#sticky_head').height();
+            var offset = sticky_height + jQuery('#sticky_head').offset().top;
+            // jQuery('.ui-autocomplete').css({'position': 'absolute', 'top' : offset + 'px' });
+        }
+    });
+    </script>
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+
+        if (portal.current_tab != "home") {
+            var lastScrollTop = 0;
+
+            jQuery(window).on("scroll", function(event) {
+                var st = jQuery(this).scrollTop();
+                if (st > lastScrollTop) {
+                    jQuery("header").addClass("initial");
+                    jQuery(".page-tabs").addClass("page_initial_down");
+                    jQuery(document).find(".ui-autocomplete").css("top", jQuery(".hc-search-input").outerHeight() - 10);
+                } else {
+                    jQuery("header").removeClass("initial");
+                    jQuery(".page-tabs").removeClass("page_initial_down");
+                    jQuery(".ui-autocomplete").css("top", jQuery(".hc-search-input").position().top + jQuery(".hc-search-input").outerHeight() - 10 + "px");
+                }
+                lastScrollTop = st;
+            });
+        }
+
+
+        jQuery(window).on('scroll', function() {
+            if (portal.current_tab != "home") {
+                jQuery(".ui-autocomplete").css("position", "fixed");
+                if (jQuery(".navbar-fixed").length) {
+                    jQuery(".ui-autocomplete").css("top", jQuery(".hc-search-input").position().top + (jQuery(".hc-search-input").outerHeight() - 10) + "px");
+                } else {
+                    jQuery(".ui-autocomplete").css("top", jQuery(".hc-search-input").position().top + jQuery(".hc-search-input").outerHeight() + 30 + "px");
+                }
+
+            } else {
+                jQuery(".ui-autocomplete").css("position", "absolute");
+                jQuery(".ui-autocomplete").css("z-index", "0");
+                jQuery(".ui-autocomplete").css("top", jQuery(".portal-banner .hc-search-input").position().top + jQuery(".portal-banner .hc-search-input").outerHeight() - 10 + "px");
+            }
+        });
+
+
+        if (jQuery(window).width() <= 720) {
+
+            jQuery(".action-bar").click(function() {
+                jQuery("#menu-icon").toggleClass("open_arrow");
+                jQuery("#page-tabs").slideToggle();
+            });
+        }
+
+        jQuery("[data-url-portal]").click(function() {
+            window.location.href = jQuery(this).attr("data-url-portal");
+        });
+
+        if (jQuery(".current_page_item").length) {
+
+            jQuery(".nav-link a").mouseenter(function() {
+                var leftpos = parseInt(jQuery(this).position().left) + 25;
+                jQuery("span.underline").animate({
+                    left: leftpos,
+                    width: jQuery(this).width()
+                }, {
+                    duration: 70
+                });
+            });
+
+
+            jQuery("#page-tabs").mouseleave(function() {
+                var leftpos = parseInt(jQuery(".current_page_item a").position().left) + 25;
+                jQuery("span.underline").animate({
+                    left: leftpos,
+                    width: jQuery(".current_page_item a").width()
+                }, {
+                    duration: 70
+                });
+            });
+
+
+            var leftpos = parseInt(jQuery(".current_page_item a").position().left) + 25;
+            jQuery("span.underline").animate({
+                left: leftpos,
+                width: jQuery(".current_page_item a").width()
+            }, {
+                duration: 70
+            });
+        } else {
+            jQuery(".underline").hide();
+        }
+
+
+        jQuery(".nav-contact #region-contact").mouseover(function() {
+            jQuery(".nav-contant-phonenumbers").show();
+        });
+
+        jQuery(".nav-contant-phonenumbers, .nav-contact.phonenumber_dropdown").mouseleave(function() {
+            jQuery(".nav-contant-phonenumbers").hide();
+        });
+
+        jQuery(".mobile_view_contacts > li a").click(function() {
+            jQuery(this).next().slideToggle();
+            jQuery(this).toggleClass("nav-sub-toggle");
+        });
+
+        if (jQuery(window).width() <= 720) {
+            jQuery(".nav-burger").click(function() {
+                jQuery(".nav-wrapper").toggleClass("opened");
+                jQuery(".gradient_bg ").toggleClass("opened_menu");
+                jQuery(".screen").toggle();
+            });
+        }
+
+        jQuery(".footer-links ul li:first-child").click(function() {
+            jQuery(this).toggleClass("open_footer_menu");
+            jQuery(this).siblings("li").toggle();
+        });
+    });
+
+    jQuery(window).load(function() {
+        jQuery('.ui-autocomplete-input').attr('placeholder', 'Go ahead, ask us anything ');
+        jQuery('.search_in_header  .ui-autocomplete-input').attr('placeholder', "Search articles and discussions");
+    });
+
+    //jQuery('#page-tabs').cleanWhitespace();
+
+    function cleanWhitespace() {
+        this.contents().filter(
+                function() {
+                    return (this.nodeType == 3 && !/\S/.test(this.nodeValue));
+                })
+            .remove();
+        return this;
+    }
+    </script>
+</body>
+
+</html>

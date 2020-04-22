@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js ie6" lang="en" dir="ltr" data-date-format="non_us"><![endif]-->
+<!--[if IE 7]><html class="no-js ie7" lang="en" dir="ltr" data-date-format="non_us"><![endif]-->
+<!--[if IE 8]><html class="no-js ie8" lang="en" dir="ltr" data-date-format="non_us"><![endif]-->
+<!--[if IE 9]><html class="no-js ie9" lang="en" dir="ltr" data-date-format="non_us"><![endif]-->
+<!--[if IE 10]><html class="no-js ie10" lang="en" dir="ltr" data-date-format="non_us"><![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html class="no-js " lang="en" dir="ltr" data-date-format="non_us">
+<!--<![endif]-->
+
+<head>
+    <!-- Title for the page -->
+    <title>FreshDesk</title>
+    <!-- Meta information -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" />
+    <!-- Base stylesheet -->
+    <!-- <link href="https://assets4.freshdesk.com/assets/cdn/portal_print-ce4892062f25ebaf8abdcca87f6225b0.css" media="print" rel="stylesheet" type="text/css" />
+    <link href="https://assets10.freshdesk.com/assets/cdn/falcon_portal_utils-fc010ba819d2d80256daa9858dbbc765.css" media="screen" rel="stylesheet" type="text/css" /> -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,italic,600,700,700italic" rel="stylesheet" type="text/css">
+    <link href="https://ind-assets4.freshdesk.com/assets/cdn/portal_print-a389f1ef3e87261e7264e3e70416d704.css" media="print" rel="stylesheet" type="text/css" />
+    <link href="https://ind-assets9.freshdesk.com/assets/cdn/falcon_portal_utils-375fa75f0f7e65b05e0570871499025e.css" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Theme stylesheet -->
+    <link href="css/theme.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/freshdesk.css" media="screen" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <!-- Access portal settings information via javascript -->
+    <script type="text/javascript">
+    var portal = { "language": "en", "name": "Freshdesk", "contact_info": "", "current_page_name": "portal_home", "current_tab": "home", "current_account_id": 2, "preferences": { "bg_color": "#efefef", "header_color": "#3b3b3b", "help_center_color": "#f9f9f9", "footer_color": "#777777", "tab_color": "#006063", "tab_hover_color": "#4c4b4b", "btn_background": "#ffffff", "btn_primary_background": "#6c6a6a", "baseFont": "Source Sans Pro", "textColor": "#333333", "headingsFont": "Source Sans Pro", "headingsColor": "#333333", "linkColor": "#049cdb", "linkColorHover": "#036690", "inputFocusRingColor": "#f4af1a", "nonResponsive": "false" }, "falcon_portal_theme": false };
+    var attachment_size = 25;
+
+    var lang = {
+        loadingText: "Please Wait...",
+        viewAllTickets: "View all tickets"
+    };
+    </script>
+    <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- <script src="https://ind-assets4.freshdesk.com/assets/cdn/portal_head-a23a49d3379e555c3bce6198c35c5a9f.js" type="text/javascript"></script>
+    <script src="https://ind-assets6.freshdesk.com/assets/cdn/prism-67132b2e3f25bcb9d275fd76bf59f43c.js" type="text/javascript"></script>
+    <script src="https://ind-assets5.freshdesk.com/assets/cdn/portal_bottom-4816994ae4f564cb1eb9c3029238695b.js" type="text/javascript"></script>
+    <script src="https://ind-assets7.freshdesk.com/assets/cdn/redactor-adf8b787353cd9053a79e693e45a3fb9.js" type="text/javascript"></script>
+    <script src="https://ind-assets2.freshdesk.com/assets/cdn/freshfone_portal-38510e9dcd7cf1e2bce25e2201e23cef.js" type="text/javascript"></script>    
+    <script src="https://ind-assets1.freshdesk.com/assets/cdn/lang/en-d58d68912364ea68a01bde932774f9dd.js" type="text/javascript"></script> -->
+</head>
+
+<body>
+    <div class="widget-webinar-banner">
+        <span class="emoji-icon"></span>
+        <p class="banner-text">Refresh Connect - An exclusive online summit for CX, IT, sales, and marketing superstars |</p>
+        <a href="https://www.freshworks.com/events/refresh-connect-summit/?utm_source=support&utm_medium=banner" target="_blank" role="button" class="register-btn">Get Access</a>
+    </div>
+    <div class="page page-layout">
+        <div class="gradient_bg  inner_bg ">
+            <header class="banner header-menu">
+                <div class="mini_header clearfix  otherpage_header ">
+                    <div class="c-wrapper no-padding">
+                        <a class="pullleft" target="_window" href="https://www.freshworks.com/"><i class="icon-home for-not-mobile"></i> Freshworks </a>
+                        <div class="pullright nav-menu">
+                            <li class="nav-contact">
+                                <a href="https://freshdesk.com/" target="_window">Go to Freshdesk</a>
+                            </li>
+                            <li class="nav-contact phonenumber_dropdown">
+                                <span id="region-contact"><i class="flags flag-india"></i><span>+91 (44) 6667 8040</span></span>
+                                <ul class="nav-contant-phonenumbers">
+                                    <li class="f-contact" data-toggle="tooltip" data-placement="left" title="" data-original-title="U.S.A.">
+                                        <i class="flags flag-usa"></i>
+                                        <a href="tel:+18668323090">
+                                            <p>+1 (866) 832-3090</p>
+                                        </a>
+                                    </li>
+                                    <li class="f-contact" data-toggle="tooltip" data-placement="left" title="" data-original-title="India">
+                                        <i class="flags flag-india"></i>
+                                        <a href="tel:+914466678040">
+                                            <p>+91 (44) 6667 8040</p>
+                                        </a>
+                                    </li>
+                                    <li class="f-contact" data-toggle="tooltip" data-placement="left" title="" data-original-title="U.K.">
+                                        <i class="flags flag-uk"></i>
+                                        <a href="tel:+448008085790">
+                                            <p>+44 (800) 808 5790</p>
+                                        </a>
+                                    </li>
+                                    <li class="f-contact" data-toggle="tooltip" data-placement="left" title="" data-original-title="Australia">
+                                        <i class="flags flag-aus"></i>
+                                        <a href="tel:+61894687228">
+                                            <p>+61 2 8188 4692</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div id="sticky_anchor" style="height: 0px;"></div>
+            <div id="sticky_head" class="navbar-static">
+                <header class="banner header-menu  otherpage_bg">
+                    <div class="c-wrapper no-padding">
+                        <div class="banner-wrapper">
+                            <div class="nav-wrapper clearfix">
+                                <a href="/support/home" class="logo"></a>
+                                <span class="nav-burger show-in-mobile">
+                                    <span class="nav-burger-icon"></span>
+                                </span>
+                                <div id="new-ticket-button">
+                                    <div class="  search_in_header  ">
+                                        <form class="hc-search-form print--remove" autocomplete="off" action="/support/search/solutions" id="hc-search-form">
+                                            <div class="hc-search-input"><i class="icon-search"></i>
+                                                <label for="support-search-input" class="hide">Enter your search term here...</label>
+                                                <input placeholder="Search articles and discussions" type="text" name="term" class="special ui-autocomplete-input" value="" rel="page-search" data-max-matches="10" id="support-search-input" autocomplete="off">
+                                            </div>
+                                            <div class="hc-search-button">
+                                                <button class="btn btn-primary" type="submit" autocomplete="off">
+                                                    <i class="mobile-icon-search hide-tablet"></i>
+                                                    <span class="hide-in-mobile">
+                                                        Search
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <input type="hidden" name="authenticity_token" value="8ztBTpx1Ell936tVAT+XFxI5ftSLytmO5R2Hc8alf+U=">
+                                        </form>
+                                    </div>
+                                    <!---     <a href="#" class="btn-medium fd-joe-bots">Ask Freddy</a> -->
+                                    <a href="/support/login" class="login_btn">Login</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="screen"></div>
+                <nav class="mobile-ham-nav show-in-mobile">
+                    <a href="/support/login">Login</a>
+                    <!--- <a href="#" class="fd-joe-bots">Ask Freddy</a> -->
+                    <a href="https://www.freshworks.com/">Freshworks</a>
+                    <a href="https://freshdesk.com/">Go to Freshdesk</a>
+                    <ul class="mobile_view_contacts">
+                        <li>
+                            <a>Contact Support</a>
+                            <ul>
+                                <li><i class="flags flag-usa"></i>+1 (866) 832-3090</li>
+                                <li><i class="flags flag-india"></i>+91 (44) 6667 8040</li>
+                                <li><i class="flags flag-uk"></i>+44 (800) 808 5790</li>
+                                <li><i class="flags flag-aus"></i>+61 2 8188 4692</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="page-tabs action-bar menubar_otherpage  makewhite">
+                    <div class="page no-padding">
+                        <a class="help-center-tab show-in-mobile">Support Home</a>
+                        <p class="currenttab show-in-mobile">solutions</p>
+                        <a class="nav-sub-toggle icon-arrow-down show-in-mobile" id="menu-icon"></a>
+                        <div class="action-bar-wrapper clear">
+                            <div class="nav-link clearfix menu_underline_animation" id="page-tabs">
+                                <ul>
+                                    <span class="underline" style="overflow: hidden; left: 640px; width: 63px;">
+                                    </span>
+                                    <li class="tab-home "><a class="tab-home " href="/support/home">
+                                            Support Home
+                                        </a></li>
+                                    <li class=""><a href="https://support.freshdesk.com/support/solutions/folders/7">FAQs </a></li>
+                                    <li class="current_page_item active"><a href="/support/solutions">
+                                            Solutions
+                                        </a></li>
+                                    <li class=""><a href="/support/discussions">Community</a></li>
+                                    <li><a href="https://freshdesk.com/academy" target="_window">Training </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <script src="//cdn.freshmarketer.com/61608/70421.js"></script>
+            <script type="text/javascript">
+            jQuery('#page-tabs a[href*="/support/discussions"]').text("Community");
+            </script>
+        </div>
+    </div>
+    <!-- Notifocation Messages for the page  -->
+    <div class="alert alert-with-close notice" id="noticeajax" style="display:none;"></div>
+    <div class="c-wrapper">
+      <div class="content main-links spaceup" id="folder-show-7">
+          <div class="custom_breadcrumbs">
+              <a href="/support/solutions">Solution home</a> / <a href="/support/solutions/4"> FAQs </a> / <span> Emails </span>
+          </div>
+          <div class="folder_list">
+              <h3> FAQ REPOSITORY </h3>
+              <div class="hide drop_down_categories">
+                  <select id="nav_cat">
+                      <option>...</option>
+                      <option data-url-portal="/support/solutions/folders/272625">Self Service Portal</option>
+                      <option data-url-portal="/support/solutions/folders/272633">Contacts &amp; Companies</option>
+                      <option data-url-portal="/support/solutions/folders/272635">Groups &amp; Agents</option>
+                      <option data-url-portal="/support/solutions/folders/272631">Helpdesk Rebranding</option>
+                      <option data-url-portal="/support/solutions/folders/272637">Login &amp; SSO</option>
+                      <option data-url-portal="/support/solutions/folders/267729">SSL &amp; Security</option>
+                      <option data-url-portal="/support/solutions/folders/7" selected="selected">Emails</option>
+                      <option data-url-portal="/support/solutions/folders/272786">Feedback Widget</option>
+                      <option data-url-portal="/support/solutions/folders/50000000007">Help widget</option>
+                      <option data-url-portal="/support/solutions/folders/272628">Social</option>
+                      <option data-url-portal="/support/solutions/folders/8">Ticketing Workflow</option>
+                      <option data-url-portal="/support/solutions/folders/272632">Ticket Forms &amp; Fields</option>
+                      <option data-url-portal="/support/solutions/folders/272636">Automatic Ticket Distribution</option>
+                      <option data-url-portal="/support/solutions/folders/272644">Automations and Triggers</option>
+                      <option data-url-portal="/support/solutions/folders/272943">Business Hours &amp; SLAs</option>
+                      <option data-url-portal="/support/solutions/folders/272640">Reports</option>
+                      <option data-url-portal="/support/solutions/folders/50000000100">Analytics</option>
+                      <option data-url-portal="/support/solutions/folders/272620">Knowledge Base</option>
+                      <option data-url-portal="/support/solutions/folders/272623">Community &amp; Forums</option>
+                      <option data-url-portal="/support/solutions/folders/272630">Mobile &amp; Apps</option>
+                      <option data-url-portal="/support/solutions/folders/272774">Agents</option>
+                      <option data-url-portal="/support/solutions/folders/272641">Multiple Products</option>
+                      <option data-url-portal="/support/solutions/folders/272650">Email notifications</option>
+                      <option data-url-portal="/support/solutions/folders/272648">Arcade &amp; Gamification</option>
+                      <option data-url-portal="/support/solutions/folders/272645">Customer Satisfaction Surveys</option>
+                      <option data-url-portal="/support/solutions/folders/272651">Accounts - Plans &amp; Billing</option>
+                      <option data-url-portal="/support/solutions/folders/272649">Integrations</option>
+                      <option data-url-portal="/support/solutions/folders/272646">API &amp; Webhooks</option>
+                      <option data-url-portal="/support/solutions/folders/272962">Advanced Ticketing features</option>
+                      <option data-url-portal="/support/solutions/folders/273511">Dashboard</option>
+                      <option data-url-portal="/support/solutions/folders/274824">Terms and Conditions for Contests</option>
+                      <option data-url-portal="/support/solutions/folders/275026">Admin Settings</option>
+                      <option data-url-portal="/support/solutions/folders/275027">Other Products</option>
+                      <option data-url-portal="/support/solutions/folders/50000000228">Field Service Management</option>
+                  </select>
+              </div>
+              <ul id="scrollbox3" class="hide_me_in_tabs">
+                  <li><a class="" href="/support/solutions/folders/272625" data-link="#fl_id_272625">Self Service Portal</a></li>
+                  <li><a class="" href="/support/solutions/folders/272633" data-link="#fl_id_272633">Contacts &amp; Companies</a></li>
+                  <li><a class="" href="/support/solutions/folders/272635" data-link="#fl_id_272635">Groups &amp; Agents</a></li>
+                  <li><a class="" href="/support/solutions/folders/272631" data-link="#fl_id_272631">Helpdesk Rebranding</a></li>
+                  <li><a class="" href="/support/solutions/folders/272637" data-link="#fl_id_272637">Login &amp; SSO</a></li>
+                  <li><a class="" href="/support/solutions/folders/267729" data-link="#fl_id_267729">SSL &amp; Security</a></li>
+                  <li><a class=" active " href="/support/solutions/folders/7" data-link="#fl_id_7">Emails</a></li>
+                  <li><a class="" href="/support/solutions/folders/272786" data-link="#fl_id_272786">Feedback Widget</a></li>
+                  <li><a class="" href="/support/solutions/folders/50000000007" data-link="#fl_id_50000000007">Help widget</a></li>
+                  <li><a class="" href="/support/solutions/folders/272628" data-link="#fl_id_272628">Social</a></li>
+                  <li><a class="" href="/support/solutions/folders/8" data-link="#fl_id_8">Ticketing Workflow</a></li>
+                  <li><a class="" href="/support/solutions/folders/272632" data-link="#fl_id_272632">Ticket Forms &amp; Fields</a></li>
+                  <li><a class="" href="/support/solutions/folders/272636" data-link="#fl_id_272636">Automatic Ticket Distribution</a></li>
+                  <li><a class="" href="/support/solutions/folders/272644" data-link="#fl_id_272644">Automations and Triggers</a></li>
+                  <li><a class="" href="/support/solutions/folders/272943" data-link="#fl_id_272943">Business Hours &amp; SLAs</a></li>
+                  <li><a class="" href="/support/solutions/folders/272640" data-link="#fl_id_272640">Reports</a></li>
+                  <li><a class="" href="/support/solutions/folders/50000000100" data-link="#fl_id_50000000100">Analytics</a></li>
+                  <li><a class="" href="/support/solutions/folders/272620" data-link="#fl_id_272620">Knowledge Base</a></li>
+                  <li><a class="" href="/support/solutions/folders/272623" data-link="#fl_id_272623">Community &amp; Forums</a></li>
+                  <li><a class="" href="/support/solutions/folders/272630" data-link="#fl_id_272630">Mobile &amp; Apps</a></li>
+                  <li><a class="" href="/support/solutions/folders/272774" data-link="#fl_id_272774">Agents</a></li>
+                  <li><a class="" href="/support/solutions/folders/272641" data-link="#fl_id_272641">Multiple Products</a></li>
+                  <li><a class="" href="/support/solutions/folders/272650" data-link="#fl_id_272650">Email notifications</a></li>
+                  <li><a class="" href="/support/solutions/folders/272648" data-link="#fl_id_272648">Arcade &amp; Gamification</a></li>
+                  <li><a class="" href="/support/solutions/folders/272645" data-link="#fl_id_272645">Customer Satisfaction Surveys</a></li>
+                  <li><a class="" href="/support/solutions/folders/272651" data-link="#fl_id_272651">Accounts - Plans &amp; Billing</a></li>
+                  <li><a class="" href="/support/solutions/folders/272649" data-link="#fl_id_272649">Integrations</a></li>
+                  <li><a class="" href="/support/solutions/folders/272646" data-link="#fl_id_272646">API &amp; Webhooks</a></li>
+                  <li><a class="" href="/support/solutions/folders/272962" data-link="#fl_id_272962">Advanced Ticketing features</a></li>
+                  <li><a class="" href="/support/solutions/folders/273511" data-link="#fl_id_273511">Dashboard</a></li>
+                  <li><a class="" href="/support/solutions/folders/274824" data-link="#fl_id_274824">Terms and Conditions for Contests</a></li>
+                  <li><a class="" href="/support/solutions/folders/275026" data-link="#fl_id_275026">Admin Settings</a></li>
+                  <li><a class="" href="/support/solutions/folders/275027" data-link="#fl_id_275027">Other Products</a></li>
+                  <li><a class="" href="/support/solutions/folders/50000000228" data-link="#fl_id_50000000228">Field Service Management</a></li>
+              </ul>
+              <div style="position: absolute; z-index: 1; margin: 0px; padding: 0px; opacity: 1; display: block; left: 262px; top: 159px;">
+                  <div class="enscroll-track track3" style="position: relative; height: 438px;"><a href="" class="handle3" style="position: absolute; z-index: 1; height: 133.225px; top: 0px;">
+                          <div class="top"></div>
+                          <div class="bottom"></div>
+                      </a></div>
+              </div>
+          </div>
+          <div class="content_list">
+              <section id="fl_id_7" class="folder_sections">
+                  <h1> Emails</h1>
+                  <div id="art_id_225196" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How to setup the forwarding rule for the support email address?" class="cnttitle">How to setup the forwarding rule for the support email address?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p><span style="font-size: 14px;">Freshdesk presents a simple solution of bringing the emails in your mailbox into Freshdesk as tickets, so that agents in your portal could work on them from within the tickets tab itself.</span></p>
+                          <p><span style="font-size: 14px;"><br></span></p>
+                          <p><span style="font-size: 14px;">In order to achieve this, please navigate to <strong>Admin--&gt;Email</strong> and enter your support email address by clicking on <strong>"New Support Email"</strong>. Kindly note that a <strong>"Forwarded To"</strong> address would be generated, using which you would have to setup a Forwarding Rule from within the Settings Tab of your support mailbox. For detailed instructions on setting up the forwarding, please refer to this&nbsp;</span><a href="https://support.freshdesk.com/support/solutions/articles/37541-forward-and-convert-your-support-emails-to-tickets-in-freshdesk"><span style="font-size: 14px;">article</span></a><span style="font-size: 14px;">&nbsp;and the video tutorial in it.</span></p>
+                          <p><span style="font-size: 14px;"><br></span></p>
+                          <p><span style="font-size: 14px;">Furthermore, each support email address can be assigned to a group as per your preferences and workflow.</span></p>
+                      </div>
+                  </div>
+                  <div id="art_id_228117" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How can I add an email address to which my customers can write and create tickets on Freshdesk?" class="cnttitle">How can I add an email address to which my customers can write and create tickets on Freshdesk?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>You have started with Freshdesk and would like to add an email address to the portal so that when customers write to this address, all the emails would be converted into tickets.&nbsp;</p>
+                          <p><br></p>
+                          <p>In order to process this, please navigate to <strong>Admin --&gt; Support channels --&gt; Email --&gt; New Support Email</strong> and add this email address here. Once this is done, a <strong>"Forwarded To"</strong> address is generated which has to be set up in your mailbox. Kindly, navigate to this <a href="https://support.freshdesk.com/support/solutions/articles/37541-forward-and-convert-your-support-emails-to-tickets-in-freshdesk">document</a> which would help you convert all emails to tickets.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_226220" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How to activate a support e-mail address?" class="cnttitle">How to activate a support e-mail address?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <div style="margin: 15px 0px; padding: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; border: 0px; overflow-x: auto; text-align: initial; color: rgb(51, 51, 51); text-indent: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="font-size: 16px;">After adding a support email address to your account, you would have to activate it, to receive tickets in Freshdesk from that email address. Kindly follow the below steps to activate your support email address.</span>
+                              <p style="margin: 0px; padding: 0px; font-size: 13px; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word;"><br></p>
+                              <ul>
+                                  <li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; font-size: 13px; border: 0px; line-height: 1.4; word-break: normal; overflow-wrap: break-word;"><span style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;">Go to <strong>Admin&nbsp;</strong>tab<strong>&nbsp;&gt;&nbsp;</strong>click on<strong>&nbsp;Email</strong></span></li>
+                                  <li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; font-size: 13px; border: 0px; line-height: 1.4; word-break: normal; overflow-wrap: break-word;"><span style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;">Once in, click on the <strong>Verify&nbsp;</strong>button corresponding the email to be activated</span></li>
+                                  <li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; font-size: 13px; border: 0px; line-height: 1.4; word-break: normal; overflow-wrap: break-word;"><span style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;">Copy the Freshdesk forwarding address generated for the email</span></li>
+                              </ul>
+                              <p><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000860434/original/ftUEqTt45JcHd0s6FTS2ktLJIEdE0iLy0Q.jpg?1584535762" style="width: 568px;" class="fr-dib fr-bordered fr-shadow" data-attachment="[object Object]" data-id="50000860434"></p>
+                              <ul>
+                                  <li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; font-size: 13px; border: 0px; line-height: 1.4; word-break: normal; overflow-wrap: break-word;"><span style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;">Sign in to your mailbox and go to <strong>Settings -&gt; Forwarding and POP/IMAP.</strong> Add the copied email as a forwarding address. Once you’re done, click <strong>Next</strong>.</span></li>
+                                  <li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; font-size: 13px; border: 0px; line-height: 1.4; word-break: normal; overflow-wrap: break-word;"><span style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;">You'll receive an activation code in the next screen. Copy the code, and paste it in your email inbox settings page, and click on Save.</span></li>
+                              </ul>
+                              <p><span style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;"><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000860442/original/jBm3crGpc5pr7RuFSq4UvsnHWcYWl6dZag.jpg?1584535926" style="width: 589px;" class="fr-dib fr-bordered fr-shadow" data-attachment="[object Object]" data-id="50000860442"></span></p>
+                              <ul>
+                                  <li><span style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;">Once done, click on the <strong>Next&nbsp;</strong>button in Freshdesk and your email will be activated.</span></li>
+                              </ul>
+                              <p><span style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;"><br></span></p>
+                              <p><span style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;"><br></span></p>
+                          </div>
+                          <p><br></p>
+                      </div>
+                  </div>
+                  <div id="art_id_225198" class="article_block">
+                      <div class=" title_cover">
+                          <a title="I am not getting support activation email" class="cnttitle">I am not getting support activation email</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p><span style="font-size: 16px;">Here's what we recommend:</span></p>
+                          <ul>
+                              <li><span style="font-size: 16px;">First, check to see if the verification email is in your <strong>S</strong><strong>pam</strong> folder.</span></li>
+                              <li><span style="font-size: 16px;">If you can't find it in your spam folder, then try resending the verification email. Navigate to Admin--&gt;Email and hit the <strong>"</strong><strong>Send Activation"</strong> button.</span></li>
+                          </ul>
+                          <p><br></p>
+                          <p><span style="font-size: 16px;">Sometimes, it is possible that there's a delay in the delivery of verification emails. So, please wait for some time before you try again. If you still haven't received the verification email after following the above steps, get in touch with our support team by sending an email to support@freshdesk.com. We're always happy to help.&nbsp;</span></p>
+                          <p><br></p>
+                      </div>
+                  </div>
+                  <div id="art_id_225193" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Why am I getting the error, ‘Activation code invalid’ when I try to activate my support email address?" class="cnttitle">Why am I getting the error, ‘Activation code invalid’ when I try to activate my support email address?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>After a support email address is added to your account, it would have to be activated to start receiving tickets. To activate an email address, you would have to click on the "Send Activation Link" option, corresponding to it. This would send an email to your support email address, containing an activation link. You would have to click on this link to activate your support email address.</p>
+                          <p><br></p>
+                          <p>At times, while clicking on the link, you would receive an error saying "Activation Code Invalid". This error comes up either -</p>
+                          <ul>
+                              <li>when the support email address is deleted after the activation email was triggered.&nbsp;</li>
+                              <li>when the activation email expires because a new one was triggered.</li>
+                          </ul>
+                          <p><br></p>
+                          <p>In such cases, please make sure that the latest activation link is being used. If the issue continues, kindly write to support@freshdesk.com and one of our agents would get in contact with you to assist further with this instance.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_225194" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How can I add more than one support email address to my Freshdesk account?" class="cnttitle">How can I add more than one support email address to my Freshdesk account?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p><span style="font-size: 16px;"></span><span style="font-size: 16px;"></span><span style="font-size: 16px;">If you have multiple email addresses to which your customers write to contact you, all these email addresses could be added to your Freshdesk Account. Thereby, emails coming to all these email addresses would get converted to tickets in your Freshdesk.&nbsp;</span></p>
+                          <p><br></p>
+                          <p><span style="font-size: 16px;">You could add a support email address by clicking on the <strong>New Support Email&nbsp;</strong>option under&nbsp;</span><strong><span style="font-size: 16px;">Admin--&gt;Email.</span></strong></p>
+                          <p><br></p>
+                          <p><span style="font-size: 16px;">The functionality to add multiple support email addresses is available only from the <strong>Blossom plan</strong> onwards in Freshdesk.</span></p>
+                      </div>
+                  </div>
+                  <div id="art_id_225199" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Why am I not able to add multiple support email addresses?" class="cnttitle">Why am I not able to add multiple support email addresses?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>There could be multiple email addresses which your customers write to, for contacting you. You would be able to add and associate multiple email addresses with your Freshdesk Account, from the Blossom plan onwards.</p>
+                          <p><br></p>
+                          <p>You would face a limitation while on the Sprout Plan where could add only one support email address to your Freshdesk account. In such cases, you could upgrade to a higher plan after which you would be able to associate multiple email addresses with your Account.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_225197" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Can I use my own mail servers to send and receive emails in Freshdesk?" class="cnttitle">Can I use my own mail servers to send and receive emails in Freshdesk?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p data-identifyelement="478">The emails from Freshdesk are sent through Sendgrid, which is our email service provider. If you are willing to use your own mail servers instead of Sendgrid to send and receive emails, you could use the <a href="https://support.freshdesk.com/support/solutions/articles/195170-using-custom-email-servers-to-send-and-receive-support-emails" target="_blank">custom mail servers</a> feature of Freshdesk.&nbsp;</p>
+                          <p data-identifyelement="480"><br></p>
+                          <p data-identifyelement="482">You could set this up by adding the IMAP and SMTP details of your mail server, to your Freshdesk Account, under Admin--&gt;Emails--&gt;Edit(corresponding to your email address)--&gt;Use your own mail server.</p>
+                          <p data-identifyelement="483"><br></p>
+                          <p data-identifyelement="485">This feature is available from the Blossom plan of Freshdesk.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_226218" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How to send e-mail from one global support e-mail id of the company without &quot;freshdesk.com&quot; in the domain?" class="cnttitle">How to send e-mail from one global support e-mail id of the company without "freshdesk.com" in the domain?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p style="margin: 0px; padding: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); text-align: start; text-indent: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;">You could choose an email address from your domain to send emails out of Freshdesk. You could add this new support email by navigating to <strong style="margin: 0px; padding: 0px; font-weight: bold; font-size: 16px; border: 0px;">Admin--&gt;Email--&gt;New Support Email.</strong></span></p>
+                          <p style="margin: 0px; padding: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); text-align: start; text-indent: 0px; text-decoration-style: initial; text-decoration-color: initial;"><br></p>
+                          <p style="margin: 0px; padding: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); text-align: start; text-indent: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;">Furthermore, if you wish to remove the <strong style="margin: 0px; padding: 0px; font-weight: bold; font-size: 16px; border: 0px;">Via Freshdesk.com</strong> tag in your emails, you could either add a DKIM record in your domain or use a Custom Mail-Server along with your Freshdesk Account.</span></p>
+                          <p style="margin: 0px; padding: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); text-align: start; text-indent: 0px; text-decoration-style: initial; text-decoration-color: initial;"><br></p>
+                          <p style="margin: 0px; padding: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); text-align: start; text-indent: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;">Note: The Custom Email-Server feature is available only in the Forest plan of Freshdesk.</span></p>
+                      </div>
+                  </div>
+                  <div id="art_id_235774" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How to edit / customize the content of email notifications?" class="cnttitle">How to edit / customize the content of email notifications?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>To customize your email notification content, Go to <strong>Admin &gt; Email notifications</strong> and then choose the respective notification ,click on <strong>Edit</strong> and then save it.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_226211" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How do I reply directly to the Original sender when it comes to emails that are forwarded to the support email address by an agent?" class="cnttitle">How do I reply directly to the Original sender when it comes to emails that are forwarded to the support email address by an agent?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>In cases where you have emails in your Inbox, that you would like to convert to tickets in your Freshdesk, you could forward those emails to your support email address. As such, this would create a ticket with you as the requester of the ticket. However, you could create a ticket with the original sender as the requester, when an email is forwarded from your mailbox to the support email address.</p>
+                          <p><br></p>
+                          <p>To set this up, please navigate to the<strong>&nbsp;Admin&nbsp;</strong>Tab<strong>&nbsp;--&gt;&nbsp;</strong>Click on<strong>&nbsp;Email --&gt;&nbsp;</strong>Turn ON the option<strong>&nbsp;"For forwarded emails, use original sender as requester"</strong>. After this option is turned on, tickets created through forwarded emails would use the original sender of the email as the requester of the ticket instead of the agent who is forwarding the email.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_235776" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Emails going to Spam" class="cnttitle">Emails going to Spam</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p style="">If the emails or replies to tickets from Freshdesk are being directed to the Spam folders of the customer's mailbox, you can enable the feature called DKIM to avoid such instances. Please refer to the <a href="https://support.freshdesk.com/support/solutions/articles/223779-digitally-sign-emails-with-dkim-" target="_blank" rel="noreferrer noopener">link</a> to know more about DKIM.&nbsp;</p>
+                      </div>
+                  </div>
+                  <div id="art_id_225192" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How do customer replies get appended to the original ticket?" class="cnttitle">How do customer replies get appended to the original ticket?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p><span style="font-size: 16px;">If the reply is from the <strong>requester</strong> of the ticket or anyone part of the ticket conversation thread(in cc to the ticket conversation), Freshdesk will check for the <strong>Message ID&nbsp;</strong>and append the reply to the original ticket accordingly.</span></p>
+                          <p><span style="font-size: 16px;"><br></span></p>
+                          <p><span style="font-size: 16px;">If the replies are coming in from a person new to the thread or an entirely new email, the system will look to append the reply based on the <strong>Ticket ID&nbsp;</strong>in the subject line, which would have to be of the format [#{{ticket.id}}](for ex., [#12345], where the ticket id is 12345). This concept is used for replies to emails sent by Automations or Email Notifications.&nbsp;</span></p>
+                      </div>
+                  </div>
+                  <div id="art_id_235777" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Emails not converted to tickets in Freshdesk" class="cnttitle">Emails not converted to tickets in Freshdesk</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p style=""><strong>There are a few steps that need to be checked for this issue:</strong></p>
+                          <ol>
+                              <li>Go to <strong>Tickets tab</strong> &gt; click on the view name at the top of the page &gt; select the <strong>Spam folder</strong> &gt; check if the ticket is present here. If so, restore the ticket &gt; click on the <strong>Activities</strong> at the top right corner and check if there are any automations(Dispatch'r etc) that have worked on the ticket. If not, click on the contact's name displayed to the right of the ticket &gt; check if the contact is deleted. Restore the contact and all future emails from the contact will come through as tickets.&nbsp;</li>
+                              <li>If the issue is for all emails coming to your support email address, check if the forwarding rule has been set up as shown in the <a href="https://support.freshdesk.com/support/solutions/articles/37541-forward-and-convert-your-support-emails-to-tickets-in-freshdesk" rel="noreferrer noopener" target="_blank">link</a>. Only if the forwarding rule has been set, would emails from the mailbox get forwarded into Freshdesk as tickets. You can check if the forwarding address is working by sending an email directly to the forwarding address displayed under Admin &gt; Email.&nbsp;</li>
+                              <li>If the 'From' and 'To' addresses of the email is the same, it will not get created as a ticket in Freshdesk. The same applies if the 'Reply-to' and 'To' addresses are the same.&nbsp;</li>
+                              <li>If you are in the Estate or Forest plan, please check if you have enabled Helpdesk Restriction (only emails from specific domains can be created as tickets). Move to <strong>Admin &gt; Helpdesk</strong> and scroll down to check the same. If you have chosen 'Users from whitelisted domains', change it to 'Users from any domain' and save the changes.&nbsp;</li>
+                          </ol>
+                      </div>
+                  </div>
+                  <div id="art_id_225187" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Can you create a ticket using Reply-to address in Freshdesk?" class="cnttitle">Can you create a ticket using Reply-to address in Freshdesk?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <div dir="ltr">
+                              <div dir="ltr">
+                                  <p>When a ticket is created from a <strong>No-Reply</strong> email address, you would not be able to continue further correspondence with the requester. To avoid such an instance, you could automatically create the ticket by making the <strong>Reply-To&nbsp;</strong>email address of this no-reply email address, as the requester of the ticket.</p>
+                                  <p><br></p>
+                                  <p><span style="font-size: 14px;">You can create a ticket using the <strong>Reply-to&nbsp;</strong>address if the option, <strong>"</strong><strong>Use 'Reply-to' email address to create requester contacts",&nbsp;</strong><span style="line-height: 17.8035px;"></span>under <strong>Admin --&gt; Email,&nbsp;</strong>is turned on. This would get the email address of the user from the '<strong>Reply-to</strong>' field and use this as the Requester of the ticket.</span><span style="font-size: 16px;"></span><span style="font-size: 16px;"><br></span><span style="font-size: 16px;"></span></p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div id="art_id_235778" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Replies not getting appended to original ticket " class="cnttitle">Replies not getting appended to original ticket </a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>If the replies to a ticket from the customer is not getting appended to the original ticket , or if the replies creates a new ticket, then kindly refer this <a href="https://support.freshdesk.com/support/solutions/articles/226802-why-is-a-customer-s-reply-to-a-ticket-creating-a-new-ticket-email-threading-" target="_blank" rel="noreferrer noopener">link</a> for detailed information on the checks to be done.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_226216" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How to forward tickets to a third-party who is not an agent?" class="cnttitle">How to forward tickets to a third-party who is not an agent?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>There might be instances where a ticket conversation would have to be forwarded to a third party, that is not a part of your helpdesk. For example, if you would like to forward the ticket to your Inventory Partner or to the Dev Team, you can have it done by the following methods:</p>
+                          <p><br></p>
+                          <p>1. Click on the Forward button in a ticket.</p>
+                          <p>2. Enter the third party address in the To field.</p>
+                          <p>3. If you are on the Blossom plan or above, you can add the public ticket URL in the message of that ticket.&nbsp;</p>
+                          <p><br></p>
+                          <p><strong>Note:&nbsp;</strong>You will <strong>not</strong> be able to find the 'forward' option for <strong>Private notes</strong> added to the ticket.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_235779" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Tickets getting duplicated" class="cnttitle">Tickets getting duplicated</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>If there is more than one ticket created for the same email, then these are few checks to be done :</p>
+                          <ol>
+                              <li style="">If the email has been received in your mailbox multiple times, then an equivalent number of tickets will be raised in Freshdesk.</li>
+                              <li>If there are multiple support email addresses in the same email, then it would be forwarded individually and get created as separate tickets in Freshdesk.</li>
+                              <li>If none of the above is applicable, then please fetch us the email headers of the email that got duplicated as tickets and drop an email to support@freshdesk.com. Refer this <a href="https://mxtoolbox.com/public/content/emailheaders/" rel="noreferrer noopener" target="_blank">link</a> to know more about email headers.</li>
+                          </ol>
+                      </div>
+                  </div>
+                  <div id="art_id_225201" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How can I send all replies/emails from Freshdesk using my company's name and not the agent's? " class="cnttitle">How can I send all replies/emails from Freshdesk using my company's name and not the agent's? </a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>Freshdesk has the option to include Agent's name in the sender information of emails sent out of your Freshdesk Account. However, if you would like your Helpdesk's name or company name to be used instead, you would have to make a change to the email configuration.</p>
+                          <p><br></p>
+                          <p>Under <strong>Admin--&gt;Email</strong>, you could find an option called <strong>'Use agent names in ticket replies and outbound emails?'</strong> which you can turn off. This would ensure that the emails are sent with the name of your support email address, which would be available at the <strong>"Name"</strong> field under <strong>Admin--&gt;Email--&gt;Edit</strong>(corresponding to the support email address).</p>
+                      </div>
+                  </div>
+                  <div id="art_id_225200" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How can I make sure that all replies go through only one support email address?" class="cnttitle">How can I make sure that all replies go through only one support email address?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p><span style="font-size: 16px;">The default behaviour in Freshdesk is that, the reply to a ticket would be sent using the support email address from which that ticket was created.&nbsp;</span></p>
+                          <p><br></p>
+                          <p><span style="font-size: 16px;">However, if your requirement is to reply through an email address irrespective of the email address from which the ticket was created, you could install&nbsp;</span><span style="font-size: 16px;">an app called <strong>"Common From email address"</strong>. This can be installed under <strong>Admin--&gt;Apps--&gt;Get More Apps.</strong></span></p>
+                      </div>
+                  </div>
+                  <div id="art_id_225188" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Can an email address be automatically added in the BCC for replies?" class="cnttitle">Can an email address be automatically added in the BCC for replies?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <div dir="ltr">
+                              <div dir="ltr">
+                                  <p>Using Freshdesk, you could send all reply emails to a particular email address. This email address could be configured to be in the BCC of any email sent out of your Freshdesk Account. This could be used for instances where all emails would have to be saved for audit or when the Manager/Lead wants to be in the loop on any conversation.</p>
+                                  <p><br></p>
+                                  <p>To automatically add an email address to BCC, navigate to Admin--&gt;Email and choose the option that says <strong>"Add BCC"</strong>. You could add multiple email addresses in BCC, by separating them with a comma(<strong>,</strong>). For example, you could add them as a@a.com,b@b.com,c@c.com and so on.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div id="art_id_235914" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Why do we need DKIM?" class="cnttitle">Why do we need DKIM?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>DKIM generates a signature, which is attached to the message while in transit, to verify the authenticity of the message source. This signature is associated with the organisation’s registered domain name. On reaching the destination, if the message has its signature validated, then the source of the mail is verified. Hence no one can send emails impersonating your organisation and support emails sent by Freshdesk on your behalf will not get marked as spam.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_234658" class="article_block">
+                      <div class=" title_cover">
+                          <a title="I can't send more than 5 emails per day" class="cnttitle">I can't send more than 5 emails per day</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p data-identifyelement="450">You can send only 5 outbound emails in a day during trial. On the Sprout plan, you can send 30 per day. The limitation will be removed once the account is upgraded.</p>
+                          <p data-identifyelement="451"><br></p>
+                      </div>
+                  </div>
+                  <div id="art_id_226639" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How do I remove the ticket link from every reply I send?" class="cnttitle">How do I remove the ticket link from every reply I send?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>By default, the Ticket URL would be added automatically to any reply you send out of Freshdesk. The requesters could use this URL to access the ticket on your portal.&nbsp;</p>
+                          <p><br></p>
+                          <p>However, if you wish to remove this URL from your replies, kindly navigate to <strong>Admin --&gt; Email Notification --&gt; Reply templates--&gt;Agent Reply Template</strong> and remove the <strong>{{ticket.url}}</strong> from the "Content" section.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_225443" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Can an agent reply from their mailbox and have it added as a private note instead of a public note?" class="cnttitle">Can an agent reply from their mailbox and have it added as a private note instead of a public note?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>The default behaviour in Freshdesk is that, when an agent replies from their mailbox, it will be appended as a public note on the respective ticket.&nbsp;</p>
+                          <p><br data-identifyelement="464"></p>
+                          <p>However, when an agent replies to an email notification of a<strong> private note</strong>, that reply will be added as a private note.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_226630" class="article_block">
+                      <div class=" title_cover">
+                          <a title="The agents are also receiving the tickets in their mailbox apart from the helpdesk. What could be the reason?" class="cnttitle">The agents are also receiving the tickets in their mailbox apart from the helpdesk. What could be the reason?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>The agent's email address could be configured as one the support email addresses of your Freshdesk Account. Hence, the tickets are going to the agent's email address. It is highly recommended that the support email address and the agent's email address should be different to avoid mail looping issues.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_226679" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Can I send an Escalation email to multiple agents?" class="cnttitle">Can I send an Escalation email to multiple agents?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>You could make use of the Automations in Freshdesk, such as, Dispatch'r, Supervisor and Observer to send escalation emails to multiple agents. Using automations, you could send email to an Agent or a Group if a certain condition is met.&nbsp;</p>
+                          <p><br></p>
+                          <p>An example would be to setup a supervisor rule(under <strong>Admin--&gt;Helpdesk Productivity--&gt;Supervisor--&gt;New Rule</strong>) with&nbsp;</p>
+                          <p>Condition : <strong>"Hours since first response due/overdue greater than"&nbsp;</strong>(depending on your use-case)&nbsp;</p>
+                          <p>Action : <strong>"S</strong><strong>end Email to Agent"</strong> add the name of the agent to whom you would like to escalate.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_225191" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How do I change the font in Email Notifications and Replies?" class="cnttitle">How do I change the font in Email Notifications and Replies?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>Your Freshdesk account has a default font associated with it. This font will be applied for replies and email notifications.</p>
+                          <p>You will have the option to change the <strong>font</strong>, under <strong>Admin &gt; Email Notifications &gt;</strong> hit the '<strong>Change</strong>' option against Default Font.&nbsp;</p>
+                          <p><br></p>
+                          <p><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000539963/original/HHZRH8dbUkJ6nBycUr0DLahjdTtHGvsK5w.png?1578049330" style="width: auto;" class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50000539963"></p>
+                          <p><br></p>
+                          <p><br></p>
+                          <p>Freshdesk offers customers to set their default font style and size.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_236710" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How to change the default reply content of a ticket?" class="cnttitle">How to change the default reply content of a ticket?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>You can have the content on the reply editor changed from <strong>Admin &gt; Email notifications &gt; Template &gt; Reply Template</strong>. To add the agent's signature the agent needs to click on the profile image &gt; Profile settings &gt; Edit profile.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_225190" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Why am I receiving an error message while trying to edit the email notifications? " class="cnttitle">Why am I receiving an error message while trying to edit the email notifications? </a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>An error message saying <strong>"</strong><strong>An internal error occurred. Please contact support."</strong> would be displayed when you are trying to edit the email notifications by signing up with an email address from a generic domain such as gmail.com or outlook.com. In such cases, you would be able to edit the email notifications only if there are more than 10 tickets created in your account.</p>
+                          <p><br></p>
+                          <p>If you continue to face further issues, please drop in an email to support@freshdesk.com with your Freshdesk URL and we'll have this sorted for you.&nbsp;</p>
+                      </div>
+                  </div>
+                  <div id="art_id_226515" class="article_block">
+                      <div class=" title_cover">
+                          <a title="If an emoticon is included in an email, the text after does not appear in the ticket. Why? " class="cnttitle">If an emoticon is included in an email, the text after does not appear in the ticket. Why? </a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>The reason for this breakage is because, the HTML content of the emoticon would break the UI of the Ticket Details page, because of which the content after the emoticon would not appear within the ticket.</p>
+                          <p><br></p>
+                          <p>In such cases, kindly write to us at support@freshdesk.com. We would be glad to assist you in fixing the ticket breakage on your account.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_236952" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How to disable support email to ticket conversion?" class="cnttitle">How to disable support email to ticket conversion?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>You can disable forwarding set up in your mailbox that connects to Freshdesk so that every email does not get converted into a ticket. Instead, you can manually forward the tickets to your support address.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_228130" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Emails are not going through to the customer from Freshdesk. How to go about this?" class="cnttitle">Emails are not going through to the customer from Freshdesk. How to go about this?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>Emails are the primary source of communication with your customers. When the emails do not get delivered, it is a hindrance to your regular pace of work which we would definitely not want you to face. A few basic checks before reaching us would be:&nbsp;</p>
+                          <ul>
+                              <li>Please check if you see an email delivery failure inside the ticket - this might be caused by a couple of factors such an unauthorised recipient address, invalid domain or server error - the message would give you details about this as well.</li>
+                              <li>Sometimes, the client email address might be in the drop address for which you could contact us to clear this right away.&nbsp;</li>
+                          </ul>
+                          <p>If this needs more assistance, kindly write to us (support@freshdesk.com) so that we could troubleshoot this further.&nbsp;</p>
+                      </div>
+                  </div>
+                  <div id="art_id_228072" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Why aren't tickets getting created, even after adding the support email address in Freshdesk?" class="cnttitle">Why aren't tickets getting created, even after adding the support email address in Freshdesk?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>Only after the forwarding rule is set up in your support mailbox, would emails come into your Freshdesk Account as Tickets. So, please make sure that the forwarding is configured from the mailbox of your support email address to the Forwarding Email Address, available under <strong>Admin--&gt;Email</strong>, in the <strong>"Forwarded To"</strong> section corresponding to your email address.</p>
+                          <p><br></p>
+                          <p>This forwarding rule is for internal operation only and the <strong>Forwarded To</strong> address would not be displayed to the customer at any point.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_225189" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How to prevent tickets from being created if the support email address is in the CC or BCC of an email?" class="cnttitle">How to prevent tickets from being created if the support email address is in the CC or BCC of an email?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>There could be cases when one of your support email address would be in cc of a conversation. As a result, the email thread would be converted to a ticket and the conversation would get recorded within your Freshdesk Account.</p>
+                          <p><br></p>
+                          <p>There isn't any default option to prevent tickets from being created in such cases, as the mailbox keeps forwarding all the emails from your primary inbox to Freshdesk as tickets. But, you can set up a Dispatch'r rule under Admin--&gt;Dispatch'r--&gt;New Rule, to automatically delete the ticket if the email address in Ticket CC is a support email address.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_225195" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Why aren't tickets getting created for emails that are manually forwarded from the support email address to Freshdesk forwarding email address?" class="cnttitle">Why aren't tickets getting created for emails that are manually forwarded from the support email address to Freshdesk forwarding email address?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p><span style="font-size: 16px;">The default behaviour in Freshdesk is that when the <strong>From</strong> and <strong>To</strong> addresses of an email are both the support email address, a ticket would not be created. This is to avoid any sort of looping because of tickets and email notifications.</span></p>
+                          <p><br></p>
+                          <p><span style="font-size: 16px;">Please try sending the email from another email address to create the ticket.</span></p>
+                      </div>
+                  </div>
+                  <div id="art_id_228160" class="article_block">
+                      <div class=" title_cover">
+                          <a title="I triggered a report/export to be sent to my email address. It still hasn't come through. Please help me with this. " class="cnttitle">I triggered a report/export to be sent to my email address. It still hasn't come through. Please help me with this. </a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>You have a presentation or meeting with your team to discuss metrics, and so, you have triggered relevant reports for the same. Unfortunately, this did not come through to your email address. Please check the following when you find a delay in this email delivery:&nbsp;</p>
+                          <ul>
+                              <li>Sometimes, there might be an issue with server connectivity - kindly try generating the report after some time.&nbsp;</li>
+                              <li>Please check if any of the other agents in your portal is able to fetch this report for you.&nbsp;</li>
+                              <li>Kindly check if this is found in your spam or trash folder of your mailbox.&nbsp;</li>
+                          </ul>
+                          <p>If these are not working out for you, please contact us (support@freshdesk.com) where we could check if the email address is in our bounce list or the mail has been queued at your end.&nbsp;</p>
+                      </div>
+                  </div>
+                  <div id="art_id_237577" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Is SPF record needed if DKIM is already set ?" class="cnttitle">Is SPF record needed if DKIM is already set ?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <div rel="clipboard_data">There is no need to set up a separate SPF record if the DKIM is already configured , as one of the DKIM records is an SPF record.</div>
+                          <p><br></p>
+                      </div>
+                  </div>
+                  <div id="art_id_228151" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How do I enable DKIM for my email domain?" class="cnttitle">How do I enable DKIM for my email domain?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>To ensure proper delivery of email, you would have to enable DKIM for the email domain of your support email address. You could have this done from within Freshdesk, using the <strong>DKIM Settings </strong>option under <strong>Admin--&gt;Email</strong>.</p>
+                          <p><br></p>
+                          <p>You would be given CNAME entries that would have to be added to your DNS. Once these entries are published, you could raise a request to Verify these entries. Once they are verified from the backend, DKIM would be enabled with those domains for Freshdesk.</p>
+                      </div>
+                  </div>
+                  <div id="art_id_226224" class="article_block">
+                      <div class=" title_cover">
+                          <a title="How to deactivate e-mail support and use only portal in Freshdesk?" class="cnttitle">How to deactivate e-mail support and use only portal in Freshdesk?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <div style="margin: 15px 0px; padding: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; border: 0px; overflow-x: auto; text-align: initial; color: rgb(51, 51, 51); text-indent: 0px; text-decoration-style: initial; text-decoration-color: initial;">
+                              <p style="margin: 0px; padding: 0px; font-size: 13px; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word;"><span style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;">Email support cannot be deactivated in Freshdesk and a default support email address is mandatory for all accounts. However, you would be able to use a new Dispatchr rule(Admin--&gt;Dispatch'r--&gt;New Rule), to automatically "Delete the ticket" or "Mark as Spam" when the "Source is Email".</span></p>
+                          </div>
+                      </div>
+                  </div>
+                  <div id="art_id_229706" class="article_block">
+                      <div class=" title_cover">
+                          <a title="I have configured a new support email address but my replies still go from the global support address. Please help. " class="cnttitle">I have configured a new support email address but my replies still go from the global support address. Please help. </a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>When you are in the Blossom plan (or above), you have the ability to create more than one support email address and map them to the portal for your customers to write to them. These would come in as tickets as expected considering that the forwarding is set up right for these addresses.&nbsp;</p>
+                          <p><br></p>
+                          <p>When the customer writes an email to the newly configured address, the response from the agent goes from this new address as expected. But when an email is raised on the portal, which is by clicking on "submit a new ticket" - the reply by default goes from the global support email address. Please make sure, this is checked when you are replying to a ticket and intend to send from a different email address. This can be changed by choosing the required address from the drop-down next to the "from" address.&nbsp;</p>
+                      </div>
+                  </div>
+                  <div id="art_id_230163" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Can I add a group/shared mailbox as our support email address?" class="cnttitle">Can I add a group/shared mailbox as our support email address?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>Group/Shared inboxes at times cause issues with ticket creation and appending of replies. Therefore, we strongly recommend that you do not use them as your support email addresses.</p>
+                          <p><br></p>
+                          <p>For further information on this, you could always write to <a href="mailto:support@freshdesk.com"><span style="color: rgb(26, 188, 156);">support@freshdesk.com</span></a>.</p>
+                          <p><br></p>
+                      </div>
+                  </div>
+                  <div id="art_id_237696" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Issues with TXT record validation for domains registered with GoDaddy" class="cnttitle">Issues with TXT record validation for domains registered with GoDaddy</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p style="">If your domain service provider is GoDaddy then the TXT record has to be added differently for the validation to pass.</p>
+                          <p style=""><br></p>
+                          <p><strong>For example:</strong> Let's say the CNAME is <strong>help.sauls.com</strong>. Generally, based on <a href="https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname" rel="noreferrer noopener" target="_blank">this solution article</a>, mapping would be:</p>
+                          <p style=""><br></p>
+                          <p><em>fdkey.help.sauls.com to &lt;generated-verification-code-in-Freshdesk&gt;</em></p>
+                          <p><br></p>
+                          <p>However, for GoDaddy, you will only need to enter '<strong>fdkey.subdomain</strong>' as GoDaddy automatically adds <strong>domain</strong><strong>.com</strong> to the record.</p>
+                          <p style=""><br></p>
+                          <p>Based on our example CNAME, if you were to add fdkey.help.sauls.com, GoDaddy will again add the domain to the record resulting in this format: <strong>fdkey.help.sauls.com<span style="color: rgb(65, 168, 95);">.sauls.com</span></strong> causing the validation <strong><em>to fail</em></strong>.</p>
+                          <p><br></p>
+                          <p>If your domain service provider is 'GoDaddy', create a TXT record mapping just <strong>fdkey.subdomain</strong> to &lt;key-generated-in-Freshdesk&gt;.</p>
+                          <p style="">&nbsp;</p>
+                      </div>
+                  </div>
+                  <div id="art_id_50000001156" class="article_block">
+                      <div class=" title_cover">
+                          <a title="Why is a customer's reply to a ticket creating a new ticket?" class="cnttitle">Why is a customer's reply to a ticket creating a new ticket?</a>
+                      </div>
+                      <div class="desc_art hide">
+                          <p>For every incoming email, Freshdesk checks 3 email markers to understand whether the email is a reply to an already-existing ticket. If the email is identified as a reply, Freshdesk performs additional sender email checks to make sure it's not spam.</p>
+                          <p><br style="box-sizing: border-box;" data-identifyelement="474"></p>
+                          <p><strong>Email Markers Check</strong></p>
+                          <p><br style="box-sizing: border-box;" data-identifyelement="476"></p>
+                          <p>Freshdesk looks for the following three markers in every incoming email. For an email to be threaded to a ticket, it has to pass one of the following checks:</p>
+                          <ol>
+                              <li>Ticket ID (if enabled)&nbsp;</li>
+                              <li>Message-ID&nbsp;</li>
+                              <li>Unique Identifier<br><br></li>
+                          </ol>
+                          <p data-identifyelement="482">For detailed information on ticket threading in Freshdesk, please refer to the article <a href="https://support.freshdesk.com/en/support/solutions/articles/226802-why-is-a-customer-s-reply-to-a-ticket-creating-a-new-ticket-email-threading-" rel="noopener noreferrer" target="_blank">here</a></p>
+                      </div>
+                  </div>
+              </section>
+          </div>
+      </div>
+    </div>
+    <div class="footer-area">
+        <div class="page no-padding">
+            <div class="footer-wrapper">
+                <div class="footer-links">
+                    <div class="fl-1">
+                        <ul>
+                            <li>Our Products</li>
+                            <li><a href="https://freshdesk.com?utm_source=freshdesk&amp;utm_medium=referral-fd&amp;utm_campaign=fd-footer">Freshdesk</a></li>
+                            <li><a href="https://freshservice.com?utm_source=freshdesk&amp;utm_medium=referral-fd&amp;utm_campaign=fd-footer">Freshservice</a></li>
+                            <li><a href="https://www.freshworks.com/freshsales-crm/?utm_source=freshdesk&amp;utm_medium=referral-fd&amp;utm_campaign=fd-footer">Freshsales</a></li>
+                            <li><a href="https://www.freshworks.com/freshcaller-cloud-pbx/?utm_source=freshdesk&amp;utm_medium=referral-fd&amp;utm_campaign=fd-footer">Freshcaller</a></li>
+                            <li><a href="https://www.freshworks.com/hrms/?utm_source=freshdesk&amp;utm_medium=referral-fd&amp;utm_campaign=fd-footer" style="display:inline-block;">Freshteam</a><a href="https://www.freshworks.com/applicant-tracking/?utm_source=freshdesk&amp;utm_medium=referral-fd&amp;utm_campaign=fd-footer" class="new-tag hide-in-mobile" style="display: inline-block;padding: 2px 6px;color: #fff; font-size: .6rem; left:3px;">NEW</a></li>
+                            <li><a href="https://www.freshworks.com/freshchat-livechat-software/?utm_source=freshdesk&amp;utm_medium=referral-fd&amp;utm_campaign=fd-footer" style="display:inline-block;">Freshchat</a><a href="https://www.freshworks.com/freshchat-livechat-software/?utm_source=freshdesk&amp;utm_medium=referral-fd&amp;utm_campaign=fd-footer" class="new-tag hide-in-mobile" style="display: inline-block;padding: 2px 6px;color: #fff; font-size: .6rem; left:3px;">NEW</a></li>
+                            <li><a href="https://www.freshworks.com/marketing-automation/?utm_source=freshworks&utm_medium=referral&utm_campaign=freshdesksupport_footer_main" style="display:inline-block;">Freshmarketer</a><a href="https://www.freshworks.com/marketing-automation/conversion-rate-optimization/?utm_source=freshworks&utm_medium=referral&utm_campaign=freshdesksupport_footer_main" class="new-tag hide-in-mobile" style="display: inline-block;padding: 2px 6px;color: #fff; font-size: .6rem; left:3px;">NEW</a></li>
+                            <li><a href="https://www.freshworks.com/website-monitoring/?utm_source=freshping&utm_medium=referral&utm_campaign=freshdesksupport_footer_main" style="display:inline-block;">Freshping</a><a href="https://www.freshworks.com/website-monitoring/?utm_source=freshping&utm_medium=referral&utm_campaign=freshdesksupport_footer_main" class="new-tag hide-in-mobile" style="display: inline-block;padding: 2px 6px;color: #fff; font-size: .6rem; left:3px;">NEW</a></li>
+                        </ul>
+                    </div>
+                    <div class="fl-2">
+                        <ul>
+                            <li>Company</li>
+                            <li><a href="https://www.freshworks.com/company/about/?utm_source=freshdesk&amp;utm_medium=referral">About us</a></li>
+                            <li><a href="https://www.freshworks.com/company/leadership/?utm_source=freshdesk&amp;utm_medium=referral">Leadership</a></li>
+                            <li><a href="https://www.freshworks.com/company/investors/?utm_source=freshdesk&amp;utm_medium=referral">Investors</a></li>
+                            <li><a href="https://www.freshworks.com/company/careers/?utm_source=freshdesk&amp;utm_medium=referral">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="fl-3">
+                        <ul>
+                            <li>Freshdesk</li>
+                            <li><a href="http://freshdesk.com/helpdesk-features">Features</a></li>
+                            <li><a href="http://freshdesk.com/pricing">Pricing</a></li>
+                            <li><a href="https://apps.freshdesk.com/">Apps</a></li>
+                            <li><a href="http://freshdesk.com/customers">Customers</a></li>
+                            <li><a href="http://freshdesk.com/academy">Training</a></li>
+                            <li><a href="http://freshdesk.com/customer-support-glossary">Support glossary</a></li>
+                            <li><a href="https://developers.freshdesk.com/v2/docs/your-first-app/">API &amp; Developers</a></li>
+                            <li><a href="http://freshdesk.com/resources">Resources</a></li>
+                            <li><a href="https://blog.freshdesk.com">Blog</a></li>
+                            <li><a href="http://freshdesk.com/resellers/reseller-benefits">Resellers</a></li>
+                        </ul>
+                    </div>
+                    <div class="fl-4">
+                        <ul>
+                            <li>Top Features</li>
+                            <li><a href="http://freshdesk.com/ticketing">Ticketing</a></li>
+                            <li><a href="http://freshdesk.com/multichannel-support">Multichannel</a></li>
+                            <!--li><a href="#">Collaboration</a></li-->
+                            <li><a href="http://freshdesk.com/productivity">Productivity</a></li>
+                            <li><a href="http://freshdesk.com/self-service">Self Service</a></li>
+                            <li><a href="http://freshdesk.com/global-helpdesk">Global Support</a></li>
+                            <li><a href="http://freshdesk.com/secure-helpdesk">Secure Helpdesk</a></li>
+                            <li><a href="http://freshdesk.com/reporting">Reporting &amp; Analytics</a></li>
+                            <li><a href="http://freshdesk.com/solutions/helpdesk-software">Helpdesk Software</a></li>
+                        </ul>
+                    </div>
+                    <div class="fl-5">
+                        <ul>
+                            <li>Mobile apps</li>
+                            <li class="img-store top-space-small bottom-space-small">
+                                <a class="a-inline" href="https://itunes.apple.com/ca/app/freshdesk/id849713306?mt=8"><img src="https://freshdesk.com/themes/freshdesk-polygon/images/appstore.svg" width="128"></a>
+                                <a class="a-inline" href="http://ad.apps.fm/ozXtEc5ZI9HQ_q2ra73VL15KLoEjTszcQMJsV6-2VnHFDLXitVHB6BlL95nuoNYffAIOoczw-YGfIaoZYt7xO4LNOZ4hHcXlOAoj_MgX7b8gZe2OOIvCAxOQtZGmw1KoF6ewiom4sKC4xZyurG0g7Q"><img src="https://freshdesk.com/themes/freshdesk-polygon/images/google-play.svg" width="128"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="fl-6">
+                        <ul class="f-social fmenu contact-us">
+                            <li class="fhead">Connect with us</li>
+                            <li class="top-space-small bottom-space-small" id="footer-social-icons">
+                                <a href="http://www.linkedin.com/company/1377014" class="linkedin"><i class="icon-fw-linkedin"></i></a>
+                                <a href="https://www.facebook.com/freshdesk/" class="fb"><i class="icon-fw-facebook"></i></a>
+                                <a href="https://twitter.com/freshdesk" class="twitter"><i class="icon-fw-twitter"></i></a>
+                                <a href="http://www.youtube.com/freshdesk" class="youtube"><i class="icon-fw-youtube"></i></a>
+                                <a href="https://plus.google.com/104314544092549602183/posts" class="googleplus"><i class="icon-fw-google-plus"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fg-12 page contact_footer">
+            <ul class="f-contact fmenu">
+                <li class="fhead">Sales &amp; Support</li>
+                <li class="top-space-small">
+                    <span class="f-phone">
+                        <i class="icon-fw-phone-new"></i>
+                        <span>+1 (866) 832-3090</span>
+                    </span>
+                </li>
+                <li class="top-space-small">
+                    <i class="icon-fw-email-new"></i>
+                    <span class="f-mail-span"><a href="mailto:support@freshdesk.com" class="f-mail">support@freshdesk.com</a></span>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-copyright-area">
+            <div class='page no-padding'>
+                <div class="footer-terms">
+                    <ul class='clearfix'>
+                        <li><a href="https://www.freshworks.com/terms/" rel="noreferrer"> Terms of service </a></li>
+                        <li><a href="https://www.freshworks.com/privacy/" rel="noreferrer"> Privacy policy </a></li>
+                    </ul>
+                </div>
+                <div class="copy omega">
+                    <p> Copyright © Freshworks Inc. All Rights Reserved. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    jQuery('#page-tabs a[href*="/support/discussions"]').text("Community");
+    jQuery('.hc-search-input').prepend('<i class="icon-search"></i>');
+
+    jQuery(window).scroll(function(e) {
+        var scroller_anchor = jQuery("#sticky_anchor").offset().top;
+        if (jQuery(this).scrollTop() >= scroller_anchor && jQuery('#sticky_head').css('position') != 'fixed') {
+            jQuery('#sticky_head').removeClass('navbar-static').addClass('navbar-fixed');
+            var navbar_height = jQuery('#sticky_head').innerHeight();
+            jQuery('#sticky_anchor').css('height', navbar_height + 'px');
+            var sticky_height = jQuery('#sticky_head').height();
+            // jQuery('.ui-autocomplete').css({'position': 'fixed', 'top' : sticky_height + 'px'});
+        } else if (jQuery(this).scrollTop() < scroller_anchor && jQuery('#sticky_head').css('position') != 'relative') {
+            jQuery('#sticky_anchor').css('height', '0px');
+            jQuery('#sticky_head').removeClass('navbar-fixed').addClass('navbar-static');
+            var sticky_height = jQuery('#sticky_head').height();
+            var offset = sticky_height + jQuery('#sticky_head').offset().top;
+            // jQuery('.ui-autocomplete').css({'position': 'absolute', 'top' : offset + 'px' });
+        }
+    });
+    </script>
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+
+        if (portal.current_tab != "home") {
+            var lastScrollTop = 0;
+
+            jQuery(window).on("scroll", function(event) {
+                var st = jQuery(this).scrollTop();
+                if (st > lastScrollTop) {
+                    jQuery("header").addClass("initial");
+                    jQuery(".page-tabs").addClass("page_initial_down");
+                    jQuery(document).find(".ui-autocomplete").css("top", jQuery(".hc-search-input").outerHeight() - 10);
+                } else {
+                    jQuery("header").removeClass("initial");
+                    jQuery(".page-tabs").removeClass("page_initial_down");
+                    jQuery(".ui-autocomplete").css("top", jQuery(".hc-search-input").position().top + jQuery(".hc-search-input").outerHeight() - 10 + "px");
+                }
+                lastScrollTop = st;
+            });
+        }
+
+
+        jQuery(window).on('scroll', function() {
+            if (portal.current_tab != "home") {
+                jQuery(".ui-autocomplete").css("position", "fixed");
+                if (jQuery(".navbar-fixed").length) {
+                    jQuery(".ui-autocomplete").css("top", jQuery(".hc-search-input").position().top + (jQuery(".hc-search-input").outerHeight() - 10) + "px");
+                } else {
+                    jQuery(".ui-autocomplete").css("top", jQuery(".hc-search-input").position().top + jQuery(".hc-search-input").outerHeight() + 30 + "px");
+                }
+
+            } else {
+                jQuery(".ui-autocomplete").css("position", "absolute");
+                jQuery(".ui-autocomplete").css("z-index", "0");
+                jQuery(".ui-autocomplete").css("top", jQuery(".portal-banner .hc-search-input").position().top + jQuery(".portal-banner .hc-search-input").outerHeight() - 10 + "px");
+            }
+        });
+
+
+        if (jQuery(window).width() <= 720) {
+
+            jQuery(".action-bar").click(function() {
+                jQuery("#menu-icon").toggleClass("open_arrow");
+                jQuery("#page-tabs").slideToggle();
+            });
+        }
+
+        jQuery("[data-url-portal]").click(function() {
+            window.location.href = jQuery(this).attr("data-url-portal");
+        });
+
+        if (jQuery(".current_page_item").length) {
+
+            jQuery(".nav-link a").mouseenter(function() {
+                var leftpos = parseInt(jQuery(this).position().left) + 25;
+                jQuery("span.underline").animate({
+                    left: leftpos,
+                    width: jQuery(this).width()
+                }, {
+                    duration: 70
+                });
+            });
+
+
+            jQuery("#page-tabs").mouseleave(function() {
+                var leftpos = parseInt(jQuery(".current_page_item a").position().left) + 25;
+                jQuery("span.underline").animate({
+                    left: leftpos,
+                    width: jQuery(".current_page_item a").width()
+                }, {
+                    duration: 70
+                });
+            });
+
+
+            var leftpos = parseInt(jQuery(".current_page_item a").position().left) + 25;
+            jQuery("span.underline").animate({
+                left: leftpos,
+                width: jQuery(".current_page_item a").width()
+            }, {
+                duration: 70
+            });
+        } else {
+            jQuery(".underline").hide();
+        }
+
+
+        jQuery(".nav-contact #region-contact").mouseover(function() {
+            jQuery(".nav-contant-phonenumbers").show();
+        });
+
+        jQuery(".nav-contant-phonenumbers, .nav-contact.phonenumber_dropdown").mouseleave(function() {
+            jQuery(".nav-contant-phonenumbers").hide();
+        });
+
+        jQuery(".mobile_view_contacts > li a").click(function() {
+            jQuery(this).next().slideToggle();
+            jQuery(this).toggleClass("nav-sub-toggle");
+        });
+
+        if (jQuery(window).width() <= 720) {
+            jQuery(".nav-burger").click(function() {
+                jQuery(".nav-wrapper").toggleClass("opened");
+                jQuery(".gradient_bg ").toggleClass("opened_menu");
+                jQuery(".screen").toggle();
+            });
+        }
+
+        jQuery(".footer-links ul li:first-child").click(function() {
+            jQuery(this).toggleClass("open_footer_menu");
+            jQuery(this).siblings("li").toggle();
+        });
+    });
+
+    jQuery(window).load(function() {
+        jQuery('.ui-autocomplete-input').attr('placeholder', 'Go ahead, ask us anything ');
+        jQuery('.search_in_header  .ui-autocomplete-input').attr('placeholder', "Search articles and discussions");
+    });
+
+    //jQuery('#page-tabs').cleanWhitespace();
+
+    function cleanWhitespace() {
+        this.contents().filter(
+                function() {
+                    return (this.nodeType == 3 && !/\S/.test(this.nodeValue));
+                })
+            .remove();
+        return this;
+    }
+   jQuery(".title_cover").click(function(){
+      
+     
+      if(jQuery(this).children().hasClass("active")){ 
+        jQuery(this).next().hide();
+        jQuery(this).children().removeClass("active");
+      }else{
+        jQuery(".desc_art").hide();
+        jQuery(".title_cover a").removeClass("active");
+        jQuery(this).next().show();
+        console.log("here");
+        jQuery(this).children().addClass("active");
+      }
+      
+    });
+
+    jQuery('#scrollbox3').mCustomScrollbar();
+
+    
+    </script>
+</body>
+
+</html>
