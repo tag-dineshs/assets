@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91.312" height="61.38" viewBox="0 0 91.312 61.38">
+  <g id="_3" data-name="3" transform="translate(-7520.962 -3186.943)">
+    <g id="Group_49" data-name="Group 49">
+      <rect id="Rectangle_34" data-name="Rectangle 34" width="91.311" height="61.34" rx="5.689" transform="translate(7520.962 3186.983)" fill="#c6124d"/>
+      <g id="Group_47" data-name="Group 47">
+        <path id="Path_60" data-name="Path 60" d="M7535.278,3216.447l-14.316.247v-4.778h9.4Z" fill="#3f031d"/>
+      </g>
+      <g id="Group_48" data-name="Group 48">
+        <path id="Path_61" data-name="Path 61" d="M7551.71,3248.275h-4.778V3214.92l2.371-2.389,2.407,2.389Z" fill="#3f031d"/>
+      </g>
+      <path id="Path_62" data-name="Path 62" d="M7546.933,3186.943h4.778V3208.8l-2.371,2.389-2.407-2.389Z" fill="#3f031d"/>
+    </g>
+    <g id="Group_50" data-name="Group 50">
+      <path id="Path_63" data-name="Path 63" d="M7612.273,3216.695h-49.08l5.257-4.778h43.823Z" fill="#3f031d"/>
+    </g>
+    <g id="Group_51" data-name="Group 51">
+      <path id="Path_64" data-name="Path 64" d="M7544.19,3205.219a8.164,8.164,0,0,0-10.759,0,6.465,6.465,0,0,0,0,9.767,8.164,8.164,0,0,0,10.759,0l5.379-4.883Z" fill="none" stroke="#f2eeea" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.616"/>
+      <path id="Path_65" data-name="Path 65" d="M7554.448,3205.219a8.164,8.164,0,0,1,10.759,0,6.465,6.465,0,0,1,0,9.767,8.164,8.164,0,0,1-10.759,0l-5.379-4.883Z" fill="none" stroke="#f2eeea" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.616"/>
+    </g>
+    <line id="Line_10" data-name="Line 10" y1="14.2" x2="11.627" transform="translate(7537.667 3210.134)" fill="none" stroke="#f2eeea" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.204"/>
+    <line id="Line_11" data-name="Line 11" x1="11.627" y1="14.2" transform="translate(7549.365 3210.134)" fill="none" stroke="#f2eeea" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.204"/>
+    <line id="Line_12" data-name="Line 12" x1="27.871" y2="0.051" transform="translate(7574.962 3227.496)" fill="none" stroke="#f2eeea" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.204"/>
+    <line id="Line_13" data-name="Line 13" x1="27.871" y2="0.051" transform="translate(7574.962 3234.345)" fill="none" stroke="#f2eeea" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.204"/>
+  </g>
+</svg>
