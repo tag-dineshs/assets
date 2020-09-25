@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62.809" height="76.546" viewBox="0 0 62.809 76.546">
+  <g id="_1" data-name="1" transform="translate(-60.888 -41.394)">
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="46.008" height="48.796" rx="4.055" transform="translate(60.888 62.662)" fill="#0b8ece"/>
+    <path id="Path_68" data-name="Path 68" d="M68.943,53.886l-7.18,10.325h44.258L97.745,53.424Z" fill="#0b8ece"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="46.008" height="22.615" transform="translate(60.888 75.225)" fill="#235dab"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="38.489" height="14.593" rx="1.892" transform="translate(64.174 41.394)" fill="#283a89"/>
+    <g id="Group_11" data-name="Group 11">
+      <line id="Line_4" data-name="Line 4" x1="0.011" y1="6.157" transform="translate(74.09 45.955)" fill="none" stroke="#efecea" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.675"/>
+      <line id="Line_5" data-name="Line 5" x1="0.011" y1="6.157" transform="translate(83.816 45.955)" fill="none" stroke="#efecea" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.675"/>
+      <line id="Line_6" data-name="Line 6" x1="0.011" y1="6.157" transform="translate(93.542 45.955)" fill="none" stroke="#efecea" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.675"/>
+    </g>
+    <g id="Group_12" data-name="Group 12">
+      <rect id="Rectangle_6" data-name="Rectangle 6" width="5.532" height="13.388" rx="0.541" transform="translate(81.252 80.006)" fill="#efecea"/>
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="5.532" height="13.388" rx="0.541" transform="translate(90.712 83.934) rotate(90)" fill="#efecea"/>
+    </g>
+    <g id="Group_13" data-name="Group 13">
+      <path id="Path_69" data-name="Path 69" d="M121.248,95.849l-9.82,9.82L99.609,93.85l9.82-9.82a8.357,8.357,0,1,1,11.819,11.819Z" fill="#235dab"/>
+      <path id="Path_70" data-name="Path 70" d="M104.032,98.275l-2.461-2.461L99.607,93.85l-9.822,9.821a8.359,8.359,0,0,0,0,11.821h0a8.359,8.359,0,0,0,11.821,0l9.821-9.822Z" fill="#efecea"/>
+    </g>
+  </g>
+</svg>
