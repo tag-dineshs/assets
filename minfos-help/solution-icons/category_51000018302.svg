@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83.253" height="86.404" viewBox="0 0 83.253 86.404">
+  <g id="_9" data-name="9" transform="translate(-51.247 -479.927)">
+    <rect id="Rectangle_23" data-name="Rectangle 23" width="58.568" height="77.186" rx="2.07" transform="translate(51.247 479.927)" fill="#7b5ca1"/>
+    <path id="Path_130" data-name="Path 130" d="M97.476,491.54v8.941h8.941A8.944,8.944,0,0,0,97.476,491.54Z" fill="#efecea"/>
+    <path id="Path_131" data-name="Path 131" d="M86.371,502.646a8.94,8.94,0,0,0,17.881,0h-8.94V493.7A8.94,8.94,0,0,0,86.371,502.646Z" fill="#231f5a"/>
+    <rect id="Rectangle_24" data-name="Rectangle 24" width="23.555" height="1.923" rx="0.848" transform="translate(59.47 495.476)" fill="#efecea"/>
+    <rect id="Rectangle_25" data-name="Rectangle 25" width="23.555" height="1.923" rx="0.848" transform="translate(59.47 500.648)" fill="#efecea"/>
+    <path id="Path_132" data-name="Path 132" d="M75.111,505.82H60.431a.962.962,0,0,0,0,1.923h14.68a.962.962,0,0,0,0-1.923Z" fill="#efecea"/>
+    <rect id="Rectangle_26" data-name="Rectangle 26" width="23.555" height="1.923" rx="0.848" transform="translate(81.258 526.505)" fill="#efecea"/>
+    <path id="Path_133" data-name="Path 133" d="M96.9,531.677H82.219a.961.961,0,0,0,0,1.923H96.9a.961.961,0,0,0,0-1.923Z" fill="#efecea"/>
+    <rect id="Rectangle_27" data-name="Rectangle 27" width="4.222" height="9.666" transform="translate(61.416 529.531)" fill="#231f5a"/>
+    <rect id="Rectangle_28" data-name="Rectangle 28" width="4.222" height="16.981" transform="translate(67.013 522.216)" fill="#efecea"/>
+    <rect id="Rectangle_29" data-name="Rectangle 29" width="4.222" height="14.807" transform="translate(72.609 524.39)" fill="#231f5a"/>
+    <rect id="Rectangle_30" data-name="Rectangle 30" width="2.071" height="5.063" rx="1.036" transform="translate(109.611 554.739) rotate(-66.589)" fill="#efecea"/>
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="11.446" cy="11.446" r="11.446" transform="translate(87.822 537.743)" fill="#efecea"/>
+    <path id="Path_134" data-name="Path 134" d="M106.619,545.936a1.837,1.837,0,0,0,.223.835l-3.674,3.785a2.081,2.081,0,0,0-1-.278,2.056,2.056,0,0,0-1.169.334l-3.34-3.006a2.4,2.4,0,0,1,.056-.279,2.063,2.063,0,0,0-4.119,0,.423.423,0,0,0,.055.279l-3.005,2.671c-.112,0-.279-.055-.446-.055a2,2,0,0,0-2.059,1.948,2.063,2.063,0,0,0,4.119,0,1.686,1.686,0,0,0-.279-.891l2.617-2.337a2.151,2.151,0,0,0,2.115,0L100.162,552v.167a2.063,2.063,0,0,0,4.119,0,.714.714,0,0,0-.055-.334l4.007-4.119a1.532,1.532,0,0,0,.5.056,2,2,0,0,0,2.06-1.949,2.034,2.034,0,0,0-2.06-1.948,2.181,2.181,0,0,0-2.115,2.06Z" fill="#9a66ab"/>
+    <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(86.392 536.228)" fill="none" stroke="#573d83" stroke-miterlimit="10" stroke-width="2.129">
+      <circle cx="12.925" cy="12.925" r="12.925" stroke="none"/>
+      <circle cx="12.925" cy="12.925" r="11.86" fill="none"/>
+    </g>
+    <rect id="Rectangle_31" data-name="Rectangle 31" width="5.216" height="22.475" rx="2.608" transform="translate(111.803 557.401) rotate(-66.589)" fill="#573d83"/>
+  </g>
+</svg>
