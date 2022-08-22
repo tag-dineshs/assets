@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
   <g id="pencil" transform="translate(-1355 -1313)">
-    <rect id="Rectangle_2644" data-name="Rectangle 2644" width="80" height="80" transform="translate(1355 1313)" fill="#fff"/>
+    <rect id="Rectangle_2644" data-name="Rectangle 2644" width="80" height="80" transform="translate(1355 1313)" fill="none"/>
     <path id="pencil-2" d="M58.775,5.137a11.277,11.277,0,0,0-15.573,0L5.224,43.115A2.237,2.237,0,0,0,4.6,44.324L2.032,59.279a2.257,2.257,0,0,0,2.217,2.634,2.065,2.065,0,0,0,.381-.033l14.955-2.565a2.227,2.227,0,0,0,1.209-.627L58.775,20.71a11.013,11.013,0,0,0,0-15.573Zm-38.29,47.5-3.012-3.012L46.343,20.755l3.012,3.012Zm-6.2-6.2-3.015-3.015L40.145,14.557l3.015,3.015Zm-5.619.747,8.052,8.052L7.006,56.909ZM55.6,17.527l-3.06,3.06-9.207-9.21,3.06-3.06a6.511,6.511,0,1,1,9.207,9.21Z" transform="translate(1363 1320.982)" fill="#00253e"/>
   </g>
 </svg>
